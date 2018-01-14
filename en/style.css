@@ -1,0 +1,239 @@
+/* global stylesheet */
+
+body {
+	margin: 0px auto;
+	min-width: 1024px;
+	text-align: center;
+}
+
+.box-container {
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 0px auto;
+}
+
+.nattierblue { background-color: rgb(220, 255, 255); }
+.white { background-color: rgb(255, 255, 255); }
+.darkgray { background-color: rgb(51, 51, 51); }
+
+.wrap {
+	width:1024px;
+}
+
+/* index.php stylesheet */
+
+.index-header-container {
+	background-image: url(assets/image/1/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 1200px;
+	overflow: visible;
+}
+
+.index-business-container {
+	margin-top: 12px;
+	background-image: url(assets/image/1/bg_4.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: visible;
+	height: 344px;
+}
+
+.index-blockchain-container {
+	background-image: url(assets/image/1/bg_1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 1112px;
+	overflow: visible;
+}
+
+.index-achievements-container {
+	background-image: url(assets/image/1/bg_2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 582px;
+	overflow: visible;
+}
+
+.index-news-container {
+	background-image: url(assets/image/1/bg_3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 485px;
+	overflow: visible;
+}
+
+/* research.php stylesheet */
+.research-header-container {
+	background-image: url(assets/image/2/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 496px;
+	overflow: visible;
+}
+
+.research-s1-container {
+	max-width:1920px;
+	height:1675px;
+	background-size:1920px 1675px;
+}
+
+.research-s2-container {
+	max-width:1920px;
+	height:1485px;
+	background-size:1920px 1485px;
+}
+
+.research-s3-container {
+	max-width:1920px;
+	height:1265px;
+	background-size:1920px 1265px;
+}
+
+/* investing.php stylesheet */
+
+.investing-header-container {
+	background-image: url(assets/image/3/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 496px;
+	overflow: visible;
+}
+
+.investing-s1-container {
+	max-width:1920px;
+	height:665px;
+	background-size:1920px 665px;
+}
+
+/* blockchain.php stylesheet */
+
+.blockchain-header-container {
+	width:100%;
+	height:1050px;
+	background:-ms-linear-gradient(right, #3daceb, #0951b3);
+	background:-moz-linear-gradient(right,#0951b3,#3daceb);/*火狐*/
+	background:-webkit-gradient(linear, 0% 0%, 100% 0%,from(#0951b3), to(#3daceb));/*谷歌*/
+	background-image:-webkit-gradient(linear,left bottom,left top,color-start(0, #0951b3),color-stop(1, #3daceb));/* Safari & Chrome*/  
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#0951b3', endColorstr='#3daceb'); /*IE6 & IE7*/  
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#0951b3', endColorstr='#3daceb'); /* IE8 */
+	background-size:1920px 1050px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/* career.php stylesheet */
+
+.career-header-container {
+	background-image: url(assets/image/5/Careers_banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 497px;
+	overflow: visible;
+}
+
+.career-path-container {
+	background-image: url(assets/image/5/Careers_bg_2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 918px;
+	overflow: visible;
+}
+
+.career-team-container {
+	background-image: url(assets/image/5/Careers_bg_3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 381px;
+	overflow: visible;
+}
+
+.career-partners-container {
+	background-image: url(assets/image/5/Careers_bg_4.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 806px;
+	overflow: visible;
+}
+
+.career-associates-container {
+	max-width:1920px;
+	height:806px;
+	background-size:1920px 806px;
+}
+
+/* footer.php stylesheet */
+
+.footer-container {
+	max-width:1920px;
+	height:168px;
+	background-size:1920px 168px;
+}
+
+.footer-wrap {
+	height:100%;
+	margin: 0px auto;
+	position: relative;
+}
+
+.footer-text1 {
+	width: 100%;
+	position:absolute;
+	font-size: 14px;
+	color: rgb(255, 255, 255);
+	top: 38px;
+	left: 0px;
+	text-align: center;
+	opacity: 0.65;
+}
+
+.footer-text2 {
+	width: 100%;
+	position:absolute;
+	font-size: 14px;
+	color: rgb(1, 174, 225);
+	top: 66px;
+	left: 0px;
+	text-align: center;
+	opacity: 0.65;
+}
+
+.footer-text3 {
+	width: 100%;
+	position:absolute;
+	font-size: 14px;
+	color: rgb(255, 255, 255);
+	top: 94px;
+	left: 0px;
+	text-align: center;
+	opacity: 0.65;
+}
+
+.footer-text4 {
+	width: 100%;
+	position:absolute;
+	font-size: 14px;
+	color: rgb(255, 255, 255);
+	top: 94px;
+	left: 82%;
+	text-align: left;
+	opacity: 0.65;
+}
+
+.footer-weibo {
+	position:absolute;
+	background-image: url(assets/image/1/weibo_button.png);
+	top: 86px;
+	left: 89%;
+	width:38px;
+	height:38px;
+}
+
+.footer-weixin {
+	position:absolute;
+	background-image: url(assets/image/1/weixin_button.png);
+	top: 86px;
+	left: 93%;
+	width:38px;
+	height:38px;
+}
