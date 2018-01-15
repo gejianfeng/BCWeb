@@ -12,7 +12,7 @@ body {
 	margin: 0px auto;
 }
 
-.nattierblue { background-color: rgb(220, 255, 255); }
+.nattierblue { background-color:#eaf7fd /*rgb(220, 255, 255)*/; }
 .white { background-color: rgb(255, 255, 255); }
 .darkgray { background-color: rgb(51, 51, 51); }
 .darkblue { background-color: rgb(30, 64, 138); }
@@ -118,6 +118,125 @@ body {
 	max-width:1920px;
 	height:1265px;
 	background-size:1920px 1265px;
+}
+
+.research-part1-container {
+	height: 496px;
+	max-width:1920px;
+}
+
+.research-title {
+	text-align: left;
+	width: 100%;
+	position:absolute;
+	top: 155px;
+	left: 0px;
+}
+
+.research-data-chart {
+	background-image: url(assets/image/2/pic_chart.png);
+	background-repeat: no-repeat;
+	background-position: center left;
+	position: absolute;
+	top: 120px;
+	left: 0px;
+	width: 1066px;
+	height: 1414px;
+}
+
+.research-part2-container {
+	height: 1485px;
+	max-width:1920px;
+}
+
+.research-sub-title1 {
+	text-align: left;
+	width: 100%;
+	position:absolute;
+	top: 134px;
+	left: 0px;
+}
+
+.research-sub-title1-content {
+	text-align: left;
+	width: 100%;
+	position:absolute;
+	top: 195px;
+	left: 0px;
+}
+
+.research-line1 {
+	position:absolute;
+	top: 395px;
+	left: 0px;
+	width:100%;
+}
+
+.research-sub-title2 {
+	text-align: left;
+	width: 100%;
+	position:absolute;
+	top: 480px;
+	left: 0px;
+}
+
+.research-sub-title2-content {
+	text-align: left;
+	width: 100%;
+	position:absolute;
+	top: 540px;
+	left: 0px;
+}
+
+.research-line2 {
+	position:absolute;
+	top: 835px;
+	left: 0px;
+	width:100%;
+}
+
+.research-sub-title3 {
+	text-align: left;
+	width: 100%;
+	position:absolute;
+	top: 915px;
+	left: 0px;
+}
+
+.research-sub-title3-content {
+	text-align: left;
+	width: 100%;
+	position:absolute;
+	top: 980px;
+	left: 0px;
+}
+
+.research-line3 {
+	position:absolute;
+	top: 1150px;
+	left: 0px;
+	width:100%;
+}
+
+.research-sub-title4 {
+	text-align: left;
+	width: 100%;
+	position:absolute;
+	top: 1240px;
+	left: 0px;
+}
+
+.research-sub-title4-content {
+	text-align: left;
+	width: 100%;
+	position:absolute;
+	top: 1295px;
+	left: 0px;
+}
+
+.research-part3-container {
+	height: 1265;
+	max-width:1920px;
 }
 
 /* investing.php stylesheet */

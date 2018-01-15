@@ -20,7 +20,7 @@ Template Name: investing.php
 
 <div class="investing-s1-container box-container white">
 	<div class='investing-part2-container box-container'>
-		<div class="wrap investing-part-wrap">
+		<div class="wrap">
 			<span class="page-sub-title text-darkblue investing-sub-title1">Cryptocurrencies</span>
 			<span class="content text-darkblue investing-sub-title1-content">Cryptocurrencies, based on blockchain technology and introduced by Bitcoin, have its unique characteristics.  They do not usually generate future cash flows and are misunderstood by many traditional investors. Due to the technology and financial nature of the cryptocurrencies, Goldpebble’s team is well equipped and among the very first financial firms to understand their fundamentals.   Goldpebble has been developing a proprietary valuation framework, using quantamental research technology, to pick out the most valuable ones from thousands cryptocurrencies.</span>
 			<div class="investing-line"/>
