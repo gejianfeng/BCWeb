@@ -8,7 +8,7 @@ Template Name: blockchain.php
 <!-- index.php start -->
 
 <div class="blockchain-header-container">
-	<?php get_top_banner("blockchain"); ?>
+	<?php get_top_banner(); ?>
 </div>
 
 

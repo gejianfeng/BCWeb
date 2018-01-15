@@ -15,13 +15,32 @@ body {
 .nattierblue { background-color: rgb(220, 255, 255); }
 .white { background-color: rgb(255, 255, 255); }
 .darkgray { background-color: rgb(51, 51, 51); }
+.darkblue { background-color: rgb(30, 64, 138); }
+
+.text-white { color: rgb(255, 255, 255); }
+.text-darkblue { color: rgb(30, 64, 138); }
 
 .wrap {
 	width:1024px;
 }
 
-.text-transparent {
-	opacity: 0.65;
+.page-title {
+	width: 100%;
+	font-size: 42px;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	text-shadow:5px 2px 6px #000;
+}
+
+.page-sub-title {
+	width: 100%;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.content {
+	width: 100%;
+	font-size: 18px;
 }
 
 /* index.php stylesheet */
@@ -108,6 +127,77 @@ body {
 	max-width:1920px;
 	height:665px;
 	background-size:1920px 665px;
+}
+
+.investing-part1-container {
+	height: 436px;
+	max-width:1920px;
+}
+
+.investing-part2-container {
+	height: 665px;
+	max-width:1920px;
+}
+
+.investing-part-wrap {
+	height:100%;
+	margin: 0px auto;
+	position: relative;
+}
+
+.investing-title {
+	text-align: left;
+	width: 100%;
+	position:absolute;
+	top: 92px;
+	left: 0px;
+}
+
+.investing-title-content {
+	text-align: left;
+	width: 100%;
+	position:absolute;
+	top: 175px;
+	left: 0px;
+}
+
+.investing-sub-title1 {
+	text-align: left;
+	width: 100%;
+	position:absolute;
+	top: 80px;
+	left: 0px;
+}
+
+.investing-sub-title1-content {
+	text-align: left;
+	width: 100%;
+	position:absolute;
+	top: 140px;
+	left: 0px;
+}
+
+.investing-line {
+	position:absolute;
+	top: 365px;
+	left: 0px;
+	width:100%;
+}
+
+.investing-sub-title2 {
+	text-align: left;
+	width: 100%;
+	position:absolute;
+	top: 455px;
+	left: 0px;
+}
+
+.investing-sub-title2-content {
+	text-align: left;
+	width: 100%;
+	position:absolute;
+	top: 510px;
+	left: 0px;
 }
 
 /* blockchain.php stylesheet */

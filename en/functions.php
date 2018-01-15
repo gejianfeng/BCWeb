@@ -1,6 +1,6 @@
 <?php
 
-function get_top_banner($page_name)
+function get_top_banner()
 {
 	$ret = '';
 	$ret.= "<div class='banner-container box-container'>";
@@ -11,35 +11,35 @@ function get_top_banner($page_name)
 			$ret.= "</div>";
 			$ret.= "<span class='banner-company-name'><b>Goldpebble Research</b></span>";
 
-	if ($page_name == "home") {
+	if (is_home()) {
 			$ret.= "<div class='banner-nav-home'>HOME</div>";
 	} 
 	else {
 			$ret.= "<div class='banner-nav-home text-transparent'>HOME</div>";
 	}
 
-	if ($page_name == "research") {
+	if (is_page('quantamentalresearch')) {
 			$ret.= "<div class='banner-nav-research'>Quantamental Research</div>";
 	} 
 	else {
 			$ret.= "<div class='banner-nav-research text-transparent'>Quantamental Research</div>";
 	}
 
-	if ($page_name == "investing") {
+	if (is_page('alternativeinvesting')) {
 			$ret.= "<div class='banner-nav-investing'>Alternative Investing</div>";
 	} 
 	else {
 			$ret.= "<div class='banner-nav-investing text-transparent'>Alternative Investing</div>";
 	}
 
-	if ($page_name == "blockchain") {
+	if (is_page('blockchaintechnology')) {
 			$ret.= "<div class='banner-nav-blockchain'>Blockchain Technology</div>";
 	} 
 	else {
 			$ret.= "<div class='banner-nav-blockchain text-transparent'>Blockchain Technology</div>";
 	}
 
-	if ($page_name == "career") {
+	if (is_page('career')) {
 			$ret.= "<div class='banner-nav-career'>Careers</div>";
 	} 
 	else {

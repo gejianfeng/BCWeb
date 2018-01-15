@@ -4,11 +4,11 @@ Template Name: career.php
 */
 ?>
 <?php get_header(); ?>
-
+ 
 <!-- index.php start -->
 
 <div class="career-header-container">
-	<?php get_top_banner("career"); ?>
+	<?php get_top_banner(); ?>
 </div>
 
 <div class="career-path-container">
