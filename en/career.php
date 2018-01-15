@@ -8,6 +8,7 @@ Template Name: career.php
 <!-- index.php start -->
 
 <div class="career-header-container">
+	<?php get_top_banner("career"); ?>
 </div>
 
 <div class="career-path-container">

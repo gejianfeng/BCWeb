@@ -8,6 +8,7 @@ Template Name: research.php
 <!-- index.php start -->
 
 <div class="research-header-container">
+	<?php get_top_banner("research"); ?>
 </div>
 
 <div class="research-s1-container box-container nattierblue">

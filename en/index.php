@@ -8,6 +8,7 @@ Template Name: index.php
 <!-- index.php start -->
 
 <div class="index-header-container">
+	<?php get_top_banner("home"); ?>
 </div>
 
 <div class="index-business-container">

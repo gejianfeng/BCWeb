@@ -20,13 +20,17 @@ body {
 	width:1024px;
 }
 
+.text-transparent {
+	opacity: 0.65;
+}
+
 /* index.php stylesheet */
 
 .index-header-container {
 	background-image: url(assets/image/1/banner.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	height: 1200px;
+	height: 870px;
 	overflow: visible;
 }
 
@@ -163,6 +167,110 @@ body {
 }
 
 /* banner stylesheet */
+
+.banner-container {
+	max-width:1920px;
+	height:60px;
+	background-size:1920px 60px;
+}
+
+.banner-wrap {
+	height:100%;
+	margin: 0px auto;
+	position: relative;
+}
+
+.banner-logo {
+	position: absolute;
+	background-image: url(assets/image/1/nav_logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width:53px;
+	height:47px;
+	left:0px;
+	top:30px;
+}
+
+.banner-lang {
+	position:absolute;
+	font-size: 12px;
+	color: rgb(255, 255, 255);
+	top: 18px;
+	left: 90%;
+}
+
+.banner-company-name {
+	position:absolute;
+	font-size: 22px;
+	color: rgb(255, 255, 255);
+	top: 38px;
+	left:60px;
+}
+
+.banner-nav-home {
+	position:absolute;
+	font-size:12px;
+	color: rgb(255, 255, 255);
+	top:48px;
+	left: 370px;
+	background-image: url(assets/image/0/nav_icon_home.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	text-align: right;
+	width: 55px;
+}
+
+.banner-nav-research {
+	position:absolute;
+	font-size:12px;
+	color: rgb(255, 255, 255);
+	top:48px;
+	left: 455px;
+	background-image: url(assets/image/0/nav_icon_qr.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	text-align: right;
+	width: 148px;
+}
+
+.banner-nav-investing {
+	position:absolute;
+	font-size:12px;
+	color: rgb(255, 255, 255);
+	top:48px;
+	left: 630px;
+	background-image: url(assets/image/0/nav_icon_invest.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	text-align: right;
+	width: 130px;
+}
+
+.banner-nav-blockchain {
+	position:absolute;
+	font-size:12px;
+	color: rgb(255, 255, 255);
+	top:48px;
+	left: 790px;
+	background-image: url(assets/image/0/nav_icon_block.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	text-align: right;
+	width: 140px;
+}
+
+.banner-nav-career {
+	position:absolute;
+	font-size:12px;
+	color: rgb(255, 255, 255);
+	top:48px;
+	left: 954px;
+	background-image: url(assets/image/0/nav_icon_career.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	text-align: right;
+	width: 60px;
+}
 
 /* footer.php stylesheet */
 

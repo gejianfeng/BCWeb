@@ -8,6 +8,7 @@ Template Name: investing.php
 <!-- index.php start -->
 
 <div class="investing-header-container">
+	<?php get_top_banner("investing"); ?>
 </div>
 
 <div class="investing-s1-container box-container white">
