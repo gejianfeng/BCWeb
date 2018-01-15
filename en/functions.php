@@ -4,7 +4,7 @@ function get_top_banner()
 {
 	$ret = '';
 	$ret.= "<div class='banner-container box-container'>";
-		$ret.= "<div class='wrap banner-wrap'>";
+		$ret.= "<div class='wrap'>";
 			$ret.= "<div class='banner-logo'></div>";
 			$ret.= "<div class='banner-lang'>";
 				$ret.= "<span class='text-transparent'>Chinese</span> | English";

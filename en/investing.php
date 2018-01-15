@@ -5,13 +5,13 @@ Template Name: investing.php
 ?>
 <?php get_header(); ?>
 
-<!-- index.php start -->
+<!-- investing.php start -->
 
 <div class="investing-header-container">
 	<?php get_top_banner(); ?>
 
 	<div class='investing-part1-container box-container'>
-		<div class="wrap investing-part-wrap">
+		<div class="wrap">
 			<span class="page-title investing-title">Alternative Investments</span>
 			<span class="content text-white investing-title-content">Goldpebble believes more research, less liquidity and longer value chain integration <br/>bring extra risk adjusted return to investors.  The traditional asset classes have been </br>too crowded and too mature for such return.<br/>With the world leading quantamental research capability, Goldpebble dedicatedly <br/>invests in alternative assets.</span>
 		</div>
@@ -32,6 +32,6 @@ Template Name: investing.php
 	</div>
 </div>
 
-<!-- index.php end -->
+<!-- investing.php end -->
 
 <?php get_footer(); ?>

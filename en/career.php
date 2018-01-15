@@ -4,8 +4,8 @@ Template Name: career.php
 */
 ?>
 <?php get_header(); ?>
- 
-<!-- index.php start -->
+
+<!-- career.php start -->
 
 <div class="career-header-container">
 	<?php get_top_banner(); ?>
@@ -24,6 +24,6 @@ Template Name: career.php
 </div>
 
 
-<!-- index.php end -->
+<!-- career.php end -->
 
 <?php get_footer(); ?>

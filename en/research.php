@@ -5,7 +5,7 @@ Template Name: research.php
 ?>
 <?php get_header(); ?>
 
-<!-- index.php start -->
+<!-- research.php start -->
 
 <div class="research-header-container">
 	<?php get_top_banner(); ?>
@@ -21,6 +21,6 @@ Template Name: research.php
 </div>
 
 
-<!-- index.php end -->
+<!-- research.php end -->
 
 <?php get_footer(); ?>

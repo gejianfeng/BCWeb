@@ -22,6 +22,13 @@ body {
 
 .wrap {
 	width:1024px;
+	height:100%;
+	margin: 0px auto;
+	position: relative;
+}
+
+.text-transparent {
+	opacity: 0.65;
 }
 
 .page-title {
@@ -139,12 +146,6 @@ body {
 	max-width:1920px;
 }
 
-.investing-part-wrap {
-	height:100%;
-	margin: 0px auto;
-	position: relative;
-}
-
 .investing-title {
 	text-align: left;
 	width: 100%;
@@ -216,6 +217,93 @@ body {
 	background-position: center;
 }
 
+.blockchain-part1-container {
+	height: 1050px;
+	max-width:1920px;
+}
+
+.blockchain-title {
+	width: 100%;
+	position:absolute;
+	top: 145px;
+	text-align: center;
+	left: 0px;
+}
+
+.blockchain-title-content {
+	width: 100%;
+	position:absolute;
+	top: 240px;
+	text-align: center;
+	left: 0px;
+	font-size:24px;
+}
+
+.blockchain-box-container {
+	background-image: url(assets/image/4/Blockchain-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	position:absolute;
+	top: 605px;
+	width: 285px;
+	height: 286px;
+}
+
+.blockchain-box-icon {
+	background-repeat: no-repeat;
+	background-position: center;
+	position:absolute;
+	width:59px;
+	height: 59px;
+	top: 52px;
+	left: 113px;
+}
+
+.blockchain-box-title {
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	opacity: 0.9;
+	top: 150px;
+	left: 0px;
+	position:absolute;
+}
+
+.blockchain-box-content {
+	text-align: center;
+	opacity: 0.9;
+	top: 190px;
+	left: 0px;
+	position:absolute;
+	width: 100%;
+	font-size: 18px;
+}
+
+.blockchain-box1 {
+	left: 75px;
+}
+
+.blockchain-box2 {
+	left: 370px;
+}
+
+.blockchain-box3 {
+	left: 665px;
+}
+
+.blockchain-box1-icon {
+	background-image: url(assets/image/4/Blockchain-icon1.png);
+}
+
+.blockchain-box2-icon {
+	background-image: url(assets/image/4/Blockchain-icon2.png);
+}
+
+.blockchain-box3-icon {
+	background-image: url(assets/image/4/Blockchain-icon3.png);
+}
+
 /* career.php stylesheet */
 
 .career-header-container {
@@ -262,12 +350,6 @@ body {
 	max-width:1920px;
 	height:60px;
 	background-size:1920px 60px;
-}
-
-.banner-wrap {
-	height:100%;
-	margin: 0px auto;
-	position: relative;
 }
 
 .banner-logo {
@@ -368,12 +450,6 @@ body {
 	max-width:1920px;
 	height:168px;
 	background-size:1920px 168px;
-}
-
-.footer-wrap {
-	height:100%;
-	margin: 0px auto;
-	position: relative;
 }
 
 .footer-text1 {
