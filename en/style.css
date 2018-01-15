@@ -162,6 +162,8 @@ body {
 	background-size:1920px 806px;
 }
 
+/* banner stylesheet */
+
 /* footer.php stylesheet */
 
 .footer-container {
@@ -210,13 +212,12 @@ body {
 }
 
 .footer-text4 {
-	width: 100%;
 	position:absolute;
 	font-size: 14px;
 	color: rgb(255, 255, 255);
 	top: 94px;
 	left: 82%;
-	text-align: left;
+	text-align: right;
 	opacity: 0.65;
 }
 
