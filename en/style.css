@@ -46,6 +46,15 @@ body {
 	font-weight: bold;
 }
 
+.sec-title {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.sec-content {
+	font-size: 18px;
+}
+
 .content {
 	width: 100%;
 	font-size: 18px;
@@ -92,6 +101,361 @@ body {
 	background-position: center;
 	height: 485px;
 	overflow: visible;
+}
+
+.index-part1-container {
+	height: 870px;
+	max-width:1920px;
+}
+
+.index-part2-container {
+	height: 344px;
+	max-width:1920px;
+}
+
+.index-part3-container {
+	height: 1112px;
+	max-width:1920px;
+}
+
+.index-part4-container {
+	height: 582px;
+	max-width:1920px;
+}
+
+.index-part5-container {
+	height: 485px;
+	max-width:1920px;
+}
+
+.index-part1-logo {
+	background-image: url(assets/image/1/logo.png);
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 89px;
+	position: absolute;
+	top: 180px;
+	left: 462px;
+}
+
+.index-part1-name {
+	text-shadow:5px 2px 6px #000;
+	position:absolute;
+	text-align: center;
+	top: 280px;
+	left: 0px;
+}
+
+.index-part1-main {
+	width: 100%;
+	font-size: 46px;
+	font-weight: bold;
+	text-shadow:5px 2px 6px #000;
+	position:absolute;
+	text-align: center;
+	top: 380px;
+	left: 0px;
+}
+
+.index-part1-content {
+	width: 100%;
+	font-size: 24px;
+	text-shadow:5px 2px 6px #000;
+	position:absolute;
+	text-align: center;
+	top: 510px;
+	left: 0px;
+}
+
+.index-part2-sub-container {
+	height: 740px;
+	top: 0px;
+	position: absolute;
+}
+
+.index-part2-research {
+	width: 512px;
+	left: 0px;
+}
+
+.index-part2-investing {
+	width: 402px;
+	left: 622px;
+}
+
+.index-part2-title {
+	position: absolute;
+	top: 74px;
+	text-align: left !important;
+}
+
+.index-part2-line {
+	left: 0px;
+	position: absolute;
+	top: 110px;
+	width: 390px;
+	height: 5px;
+}
+
+.index-part2-icon {
+	background-repeat: no-repeat;
+	background-position: center;
+	position:absolute;
+	left: 0px;
+}
+
+.index-part2-icon-QR {
+	background-image: url(assets/image/1/QR_icon.png);
+	top: 155px;
+	width: 54px;
+	height: 53px;
+}
+
+.index-part2-icon-AD {
+	background-image: url(assets/image/1/AD_icon.png);
+	top: 235px;
+	width: 53px;
+	height: 58px;
+}
+
+.index-part2-icon-BC {
+	background-image: url(assets/image/1/cryptocurrencies_icon.png);
+	top: 155px;
+	width: 52px;
+	height: 54px;
+}
+
+.index-part2-icon-LE {
+	background-image: url(assets/image/1/LE_icon.png);
+	top: 235px;
+	width: 53px;
+	height: 54px;
+}
+
+.index-part2-title-QR {
+	position: absolute;
+	text-align: left;
+	top: 160px;
+	left: 90px;
+}
+
+.index-part2-title-AD {
+	position: absolute;
+	text-align: left;
+	top: 235px;
+	left: 90px;
+}
+
+.index-part2-content-QR {
+	position: absolute;
+	text-align: left;
+	top: 190px;
+	left: 90px;
+}
+
+.index-part2-content-AD {
+	position: absolute;
+	text-align: left;
+	top: 265px;
+	left: 90px;
+}
+
+.index-part2-title-BC {
+	position: absolute;
+	text-align: left;
+	top: 160px;
+	left: 90px;
+}
+
+.index-part2-title-LE {
+	position: absolute;
+	text-align: left;
+	top: 245px;
+	left: 90px;
+}
+
+.index-part3-title-BC {
+	position:absolute;
+	text-align: center;
+	top: 75px;
+}
+
+.index-part3-title-line {
+	width: 40px;
+	position: absolute;
+	left: 492px;
+	top: 125px;
+	height: 2px;
+}
+
+.index-part3-BC-frame {
+	background-image: url(assets/image/1/Blockchain-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 285px;
+	height: 286px;
+	position: absolute;
+	top: 170px;
+}
+
+.index-part3-BC-frame1 {
+	left: 75px;
+}
+
+.index-part3-BC-frame2 {
+	left: 370px;
+}
+
+.index-part3-BC-frame3 {
+	left: 665px;
+}
+
+.index-part3-BC-frame-icon {
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	top: 53px;
+}
+
+.index-part3-BC-frame-icon1 {
+	background-image: url(assets/image/1/Blockchain-icon1.png);
+	width: 52px;
+	height: 59px;
+	left: 116px;
+}
+
+.index-part3-BC-frame-icon2 {
+	background-image: url(assets/image/1/Blockchain-icon2.png);
+	width: 48px;
+	height: 59px;
+	left: 118px;
+}
+
+.index-part3-BC-frame-icon3 {
+	background-image: url(assets/image/1/Blockchain-icon3.png);
+	width: 57px;
+	height: 57px;
+	left: 114px;
+}
+
+.index-part3-BC-frame-title {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 150px;
+	opacity: 0.9;
+}
+
+.index-part3-BC-frame-content {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 190px;
+	opacity: 0.9;
+}
+
+.index-part3-info {
+	width: 305px;
+	position: absolute;
+	top: 560px;
+}
+
+.index-part3-info1 {
+	left: 0px;
+}
+
+.index-part3-info2 {
+	left: 360px;
+}
+
+.index-part3-info3 {
+	left: 720px;
+}
+
+.index-part3-icon {
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+}
+
+.index-part3-icon1 {
+	background-image: url(assets/image/1/Data_icon.png);
+	width: 60px;
+	height: 70px;
+}
+
+.index-part3-icon2 {
+	background-image: url(assets/image/1/Edge_icon.png);
+	width: 70px;
+	height: 69px;
+}
+
+.index-part3-icon3 {
+	background-image: url(assets/image/1/Technology_icon.png);
+	width: 63px;
+	height: 63px;
+}
+
+.index-part3-info-title {
+	font-size: 30px;
+	font-weight: bold;
+	position: absolute;
+	top: 18px;
+	left: 102px;
+}
+
+.index-part3-info-content {
+	position: absolute;
+	top: 115px;
+	text-align: left;
+}
+
+.index-part3-read-more {
+	background-image: url(assets/image/1/button_read-more.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	width: 308px;
+	height: 69px;
+	top: 930px;
+	left: 358px;
+}
+
+.index-part3-read-more-text {
+	position: absolute;
+	top: 15px;
+	left: 55px;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.index-part4-title {
+	position:absolute;
+	text-align: center;
+	top: 90px;
+}
+
+.index-part4-title-line {
+	width: 40px;
+	position: absolute;
+	left: 492px;
+	top: 140px;
+	height: 2px;
+}
+
+.index-part5-title {
+	position:absolute;
+	text-align: center;
+	top: 80px;
+}
+
+.index-part5-title-line {
+	width: 40px;
+	position: absolute;
+	left: 492px;
+	top: 132px;
+	height: 2px;
 }
 
 /* research.php stylesheet */
