@@ -50,6 +50,15 @@ Template Name: research.php
 <div class="research-s3-container box-container nattierblue">
 	<div class='research-part3-container box-container'>
 		<div class="wrap">
+			<div class="research-p3-img1"></div>
+			<div class="research-p3-img2"></div>
+			<div class="research-p3-img3"></div>
+			<span class="page-sub-title text-darkblue research-p3-sub-title1">Goldpebble Human Intelligence Data Expert Neuron System (GP HIDEN)</span>
+			<span class="content text-darkblue research-p3-sub-title1-content">GP HIDEN processes unstructured language and images into a structured database. Sources range from news portals, company websites and company filings to Twitter, Weibo and other social media networks. We developed our own Natural Language Processing (NLP) semantic technology to find relevant and actionable information at the same time leveraging our deep domain knowledge from industry experts.</span>
+			<span class="page-sub-title text-darkblue research-p3-sub-title2">Goldpebble Core Data Services (GP Core)</span>
+			<span class="content text-darkblue research-p3-sub-title2-content"><b>GP Core generates high frequency, real time data from structured data sources: </b><br/>-Traditional data sources: company filings, industry and macro data <br/>-Big data sources: social networks, search engines, ecommerce transactions</span>
+			<span class="page-sub-title text-darkblue research-p3-sub-title3">Goldpebble Offline Services (GP OS)</span>
+			<span class="content text-darkblue research-p3-sub-title3-content">The missing component of data applications is normally unavailable information or unverifiable correlations. Goldpebble has built its own offline survey system and maintains a real-time responsive team that covers 2,400 cities across China with great accessibility, flexibility and quality.</span>
 		</div>
 	</div>
 </div>

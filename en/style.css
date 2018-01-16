@@ -1,4 +1,5 @@
 /* global stylesheet */
+* {font-family: "Helvetica" !important;}
 
 body {
 	margin: 0px auto;
@@ -237,6 +238,87 @@ body {
 .research-part3-container {
 	height: 1265;
 	max-width:1920px;
+}
+
+.research-p3-img1 {
+	background-image: url(assets/image/2/pic_GPHIDEN.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 382px;
+	height: 350px;
+	position:absolute;
+	left:0px;
+	top:78px;
+}
+
+.research-p3-img2 {
+	background-image: url(assets/image/2/pic_GPCORE.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 387px;
+	height: 491px;
+	position:absolute;
+	left:637px;
+	top:380px;
+}
+
+.research-p3-img3 {
+	background-image: url(assets/image/2/pic_GPOS_.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 441px;
+	height: 330px;
+	position:absolute;
+	left:0px;
+	top:840px;
+}
+
+.research-p3-sub-title1 {
+	text-align: left;
+	width: 554px;
+	position:absolute;
+	top: 90px;
+	left: 470px;
+}
+
+.research-p3-sub-title1-content {
+	text-align: left;
+	width: 554px;
+	position:absolute;
+	top: 190px;
+	left: 470px;
+}
+
+.research-p3-sub-title2 {
+	text-align: left;
+	width: 600px;
+	position:absolute;
+	top: 550px;
+	left: 0px;
+}
+
+.research-p3-sub-title2-content {
+	text-align: left;
+	width: 545px;
+	position:absolute;
+	top: 615px;
+	left: 0px;
+}
+
+.research-p3-sub-title3 {
+	text-align: left;
+	width: 525px;
+	position:absolute;
+	top: 905px;
+	left: 460px;
+}
+
+.research-p3-sub-title3-content {
+	text-align: left;
+	width: 564px;
+	position:absolute;
+	top: 965px;
+	left: 460px;
 }
 
 /* investing.php stylesheet */
