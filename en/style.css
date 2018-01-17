@@ -219,7 +219,7 @@ body {
 }
 
 .index-part2-icon-BC {
-	background-image: url(assets/image/1/cryptocurrencies_icon.png);
+	background-image: url(assets/image/1/crypto1rencies_icon.png);
 	top: 155px;
 	width: 52px;
 	height: 54px;
@@ -444,6 +444,57 @@ body {
 	height: 2px;
 }
 
+.index-part4-frame {
+	position:absolute;
+	background-image: url(assets/image/1/main_achievement_bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width:232px;
+	height:284px;
+}
+
+.index-part4-frame1 {
+	left:138px;
+	top:200px;
+}
+
+.index-part4-frame2 {
+	left:396px;
+	top:200px;
+}
+
+.index-part4-frame3 {
+	left:654px;
+	top:200px;
+}
+
+.index-part4-icon {
+	position:absolute;
+	background-image: url(assets/image/1/main_achievement_circle.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width:60px;
+	height:60px;
+	top:42px;
+	left:28px;
+}
+
+.index-part4-year {
+	top:15px;
+	position: absolute;
+	text-align: center;
+	width:100%;
+}
+
+.index-part4-content {
+	top:80px;
+	position: absolute;
+	text-align: left;
+	width:172px;
+	left:0px;
+	height:156px;
+}
+
 .index-part5-title {
 	position:absolute;
 	text-align: center;
@@ -456,6 +507,96 @@ body {
 	left: 492px;
 	top: 132px;
 	height: 2px;
+}
+
+.index-part5-frame {
+	position:absolute;
+	background-image: url(assets/image/1/news_report_bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width:822px;
+	height:208px;
+	top:185px;
+	left:101px;
+}
+
+.index-part5-icon {
+	position:absolute;
+	background-image: url(assets/image/1/news_icon.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width:126px;
+	height:98px;
+	top:50px;
+	left:48px;
+}
+
+.index-part5-more {
+	position:absolute;
+	background-image: url(assets/image/1/button_more.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width:52px;
+	height:40px;
+	top:142px;
+	left:708px;
+}
+
+.index-part5-icon-calendar {
+	position:absolute;
+	background-image: url(assets/image/1/calendar_icon.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	width:200px;
+	height:31px;
+	top:144px;
+	left:202px;
+}
+
+.index-part5-content {
+	position: absolute;
+	top:34px;
+	left: 204px;
+	width: 560px;
+	text-align: left;
+}
+
+.index-arrow-left {
+	position:absolute;
+	background-image: url(assets/image/1/arrow_left.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width:28px;
+	height:44px;
+}
+
+.index-arrow-right {
+	position:absolute;
+	background-image: url(assets/image/1/arrow_right.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width:28px;
+	height:44px;
+}
+
+.index-part5-arrow-left {
+	top:260px;
+	left:0px;
+}
+
+.index-part5-arrow-right {
+	top:260px;
+	left:996px;
+}
+
+.index-part4-arrow-left {
+	top:320px;
+	left:0px;
+}
+
+.index-part4-arrow-right {
+	top:320px;
+	left:996px;
 }
 
 /* research.php stylesheet */
@@ -922,6 +1063,11 @@ body {
 	max-width:1920px;
 }
 
+.career-part4-container {
+	height: 806px;
+	max-width:1920px;
+}
+
 .career-part5-container {
 	max-width:1920px;
 }
@@ -1102,6 +1248,111 @@ body {
 	text-align: center;
 	width: 100%;
 	left: 0px;
+}
+
+.career-part4-icon-bg {
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: center;
+	width:273px;
+	height:272px;
+	top:49px;
+}
+
+.career-part4-icon-bg1 {
+	background-image: url(assets/image/5/Team_bg.png);
+	left:218px;
+}
+
+.career-part4-icon-bg2 {
+	background-image: url(assets/image/5/Team_bg.png);
+	left:376px;
+}
+
+.career-part4-icon-bg3 {
+	background-image: url(assets/image/5/Team_bg.png);
+	left:534px;
+}
+
+.career-part4-icon-big {
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: center;
+	width:134px;
+	height:134px;
+	top:118px;
+}
+
+.career-part4-icon-big1 {
+	background-image: url(assets/image/5/Team_photo_big.png);
+	left:287px;
+}
+
+.career-part4-icon-big2 {
+	background-image: url(assets/image/5/Team_photo_big.png);
+	left:445px;
+}
+
+.career-part4-icon-big3 {
+	background-image: url(assets/image/5/Team_photo_big.png);
+	left:603px;
+}
+
+.career-part4-icon-sml {
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: center;
+	width:92px;
+	height:89px;
+	top:140px;
+	opacity:0.8;
+}
+
+.career-part4-icon-sml1 {
+	background-image: url(assets/image/5/Team_photo_small.png);
+	left:308px;
+}
+
+.career-part4-icon-sml2 {
+	background-image: url(assets/image/5/Team_photo_small.png);
+	left:466px;
+}
+
+.career-part4-icon-sml3 {
+	background-image: url(assets/image/5/Team_photo_small.png);
+	left:624px;
+}
+
+.career-part4-title {
+	width:100%;
+	position: absolute;
+	left:0px;
+	top:355px;
+	font-size:36px;
+	font-weight: bold;
+}
+
+.career-part4-name {
+	width:100%;
+	position: absolute;
+	left:0px;
+	top:400px;
+}
+
+.career-part4-content {
+	width:80%;
+	position: absolute;
+	left:103px;
+	top:455px;
+}
+
+.career-line {
+	position:absolute;
+	top: 435px;
+	left: 426px;
+	width:172px;
+	background-color: rgb(255, 255, 255);
+	height:1px;
 }
 
 .career-part5-title {

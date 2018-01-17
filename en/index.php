@@ -96,6 +96,28 @@ Template Name: index.php
 		<div class="wrap">
 			<div class="page-sub-title index-part4-title text-white">Main Achievements</div>
 			<div class="white index-part4-title-line"></div>
+
+			<div class="index-part4-frame index-part4-frame1">
+				<div class="index-part4-icon">
+					<div class="index-part4-year text-white sec-title">2012</div>
+					<div class="index-part4-content sec-content text-darkblue" style="font-weight: bold">Defeat Short Sellers on New Oriental (EDUUS);</div>
+				</div>
+			</div>
+			<div class="index-part4-frame index-part4-frame2">
+				<div class="index-part4-icon">
+					<div class="index-part4-year text-white sec-title">2013</div>
+					<div class="index-part4-content sec-content text-darkblue" style="font-weight: bold">Earliest in Understanding YY's Business Model;</div>
+				</div>
+			</div>
+			<div class="index-part4-frame index-part4-frame3">
+				<div class="index-part4-icon">
+					<div class="index-part4-year text-white sec-title">2013</div>
+					<div class="index-part4-content sec-content text-darkblue" style="font-weight: bold">Opened China Branch;</div>
+				</div>
+			</div>
+
+			<div class="index-arrow-left index-part4-arrow-left"></div>
+			<div class="index-arrow-right index-part4-arrow-right"></div>
 		</div>
 	</div>
 </div>
@@ -105,6 +127,16 @@ Template Name: index.php
 		<div class="wrap">
 			<div class="page-sub-title index-part5-title text-darkblue">News Report</div>
 			<div class="darkblue index-part5-title-line"></div>
+			
+			<div class="index-part5-frame">
+				<div class="index-part5-icon"></div>
+				<div class="index-part5-more"></div>
+				<div class="index-part5-icon-calendar" style="text-align: right; font-size:18px; color:#1e408a;">November 1, 2016</div>
+				<div class="index-part5-content text-darkblue sec-content">Brought up by Bitcoin, blockchain technology is an open, secure, distributed computer system. Such system makes transactions take place without the need of a trusted authority or central server.</div>
+			</div>
+
+			<div class="index-arrow-left index-part5-arrow-left"></div>
+			<div class="index-arrow-right index-part5-arrow-right"></div>
 		</div>
 	</div>
 </div>

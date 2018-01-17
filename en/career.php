@@ -68,7 +68,132 @@ Template Name: career.php
 	</div>
 </div>
 
+<script type="text/javascript">
+	function SwitchIntro(index)
+	{
+		if (index < 1 || index > 3)
+		{
+			return;
+		}
+
+		switch (index)
+		{
+			case 1:
+			{
+				$("#bg1").show();
+				$("#bg2").hide();
+				$("#bg3").hide();
+
+				$("#bigicon1").show();
+				$("#bigicon2").hide();
+				$("#bigicon3").hide();
+
+				$("#smlicon1").hide();
+				$("#smlicon2").show();
+				$("#smlicon3").show();
+
+				$("#title1").show();
+				$("#title2").hide();
+				$("#title3").hide();
+
+				$("#name1").show();
+				$("#name2").hide();
+				$("#name3").hide();
+
+				$("#intro1").show();
+				$("#intro2").hide();
+				$("#intro3").hide();
+				break;
+			}
+			case 2:
+			{
+				$("#bg1").hide();
+				$("#bg2").show();
+				$("#bg3").hide();
+
+				$("#bigicon1").hide();
+				$("#bigicon2").show();
+				$("#bigicon3").hide();
+
+				$("#smlicon1").show();
+				$("#smlicon2").hide();
+				$("#smlicon3").show();
+
+				$("#title1").hide();
+				$("#title2").show();
+				$("#title3").hide();
+
+				$("#name1").hide();
+				$("#name2").show();
+				$("#name3").hide();
+
+				$("#intro1").hide();
+				$("#intro2").show();
+				$("#intro3").hide();
+				break;
+			}
+			case 3:
+			{
+				$("#bg1").hide();
+				$("#bg2").hide();
+				$("#bg3").show();
+
+				$("#bigicon1").hide();
+				$("#bigicon2").hide();
+				$("#bigicon3").show();
+
+				$("#smlicon1").show();
+				$("#smlicon2").show();
+				$("#smlicon3").hide();
+
+				$("#title1").hide();
+				$("#title2").hide();
+				$("#title3").show();
+
+				$("#name1").hide();
+				$("#name2").hide();
+				$("#name3").show();
+
+				$("#intro1").hide();
+				$("#intro2").hide();
+				$("#intro3").show();
+				break;
+			}
+		}
+	}
+
+</script>
+
 <div class="career-partners-container">
+	<div class='career-part4-container box-container'>
+		<div class="wrap">
+			<div id="bg1" class="career-part4-icon-bg career-part4-icon-bg1" style="display:none;"></div>
+			<div id="bg2" class="career-part4-icon-bg career-part4-icon-bg2"></div>
+			<div id="bg3" class="career-part4-icon-bg career-part4-icon-bg3" style="display:none;"></div>
+
+			<div id="bigicon1" class="career-part4-icon-big career-part4-icon-big1" style="display:none;"></div>
+			<div id="bigicon2" class="career-part4-icon-big career-part4-icon-big2"></div>
+			<div id="bigicon3" class="career-part4-icon-big career-part4-icon-big3" style="display:none;"></div>
+
+			<div id="smlicon1" class="career-part4-icon-sml career-part4-icon-sml1" style="cursor:pointer" onclick='SwitchIntro(1)'></div>
+			<div id="smlicon2" class="career-part4-icon-sml career-part4-icon-sml2" style="display:none; cursor:pointer;" onclick='SwitchIntro(2)'></div>
+			<div id="smlicon3" class="career-part4-icon-sml career-part4-icon-sml3" style="cursor:pointer" onclick='SwitchIntro(3)'></div>
+
+			<div id="title1" class="career-part4-title text-white" style="display:none;">PARTNERS</div>
+			<div id="title2" class="career-part4-title text-white">PARTNERS</div>
+			<div id="title3" class="career-part4-title text-white" style="display:none;">ADVISORS</div>
+
+			<div id="name1" class="career-part4-name sec-title text-white" style="display:none;">M. Adnan Gilani</div>
+			<div id="name2" class="career-part4-name sec-title text-white">Yifeng Mao</div>
+			<div id="name3" class="career-part4-name sec-title text-white" style="display:none;">Minglei Shi</div>
+
+			<div id="intro1" class="career-part4-content text-white sec-content" style="display:none;">M. Adnan Gilani, Co-Founder, Head of Macro Strategy, has had a career in capital markets and international finance spanning almost two decades. He has led FX, Emerging Markets and Derivatives units in Goldman Sachs, HSBC and Citigroup. Adnan was also Director of the Debt Office in the Ministry of Finance after which he started an Asia Infrastructure/Macro fund in New York. He has degrees in Chemical Engineering and Finance from Wharton and did his graduate studies at the University of Chicago in Analytic Finance.</div>
+			<div id="intro2" class="career-part4-content text-white sec-content">Yifeng Mao, CFA, Founder, Head of Research, has developed investment strategies and institutions both on the buy and sell sides.  He has managed global hedge funds in Singapore and Hong Kong as well as setting up a family office in the United States.  Yifeng is considered a pre-eminent name in the data intensive bottoms-up investment research arena with particular stress in Chinese listed companies.  He is a featured speaker on international business channels which solicit his indigenously developed proprietary cutting edge analysis techniques which have proven to be non-consensus and highly accurate.  He graduated from Shanghai Jiao Tong University with dual undergraduate degrees in Computer Science and Finance.</div>
+			<div id="intro3" class="career-part4-content text-white sec-content" style="display:none;">Minglei Shi, Senior Advisor, has over 15 years of investment experience in the Greater China region and advises on business strategy and product design for Goldpebble. He was previously the fund manager for China International Capital Corporation Asset Management (Hong Kong) and has extensive knowledge of QDII and RQFII products. Minglei has also served as the company director and portfolio manager for Everest Capital (Singapore), where he spent over ten years, and was the chief representative in Templeton Investment’s Shanghai office, responsible for China business development. Mr. Shi has a masters in accounting and finance from the London School of Economics.</div>
+
+			<div class="career-line"/></div>
+		</div>
+	</div>
 </div>
 
 <?php
