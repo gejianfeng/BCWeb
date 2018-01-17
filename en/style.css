@@ -905,8 +905,6 @@ body {
 
 .career-associates-container {
 	max-width:1920px;
-	min-height:272px;
-	background-size:1920px 806px;
 }
 
 .career-part1-container {
@@ -925,7 +923,6 @@ body {
 }
 
 .career-part5-container {
-	min-height:272px;
 	max-width:1920px;
 }
 
@@ -1112,6 +1109,35 @@ body {
 	top: 104px;
 	text-align: center;
 	left: 0px;
+}
+
+.career-employee-cell {
+	position:absolute;
+	left:0px;
+	width:1024px;
+	height:219px;
+	background-image: url(assets/image/5/Careers_bg_rectangle.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.career-employee-icon {
+	position:absolute;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 92px;
+	height: 89px;
+	left: 56px;
+	top:40px;
+}
+
+.career-employee-intro {
+	position:absolute;
+	width: 815px;
+	height: 145px;
+	left:170px;
+	top: 42px;
+	text-align: left;
 }
 
 /* banner stylesheet */

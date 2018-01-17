@@ -71,13 +71,59 @@ Template Name: career.php
 <div class="career-partners-container">
 </div>
 
-<div class="career-associates-container box-container nattierblue">
-	<div class='career-part5-container box-container'>
-		<div class="wrap">
-			<span class="career-part5-title page-sub-title text-darkblue">ANALYSTS/ASSOCIATES</span>
-		</div>
-	</div>
-</div>
+<?php
+	$employee_query = new WP_Query('category_name=Employee');
+
+	$employee_count = 0;
+	$employee_photo = array();
+	$employee_content = array();
+
+	if ($employee_query->have_posts()):
+		while($employee_query->have_posts()) :
+			$employee_query->the_post();
+
+			$tmp = $post->post_title;
+			$tmp = explode('|', $tmp);
+			if (count($tmp) == 2) {
+				// photo
+				$employee_photo[] = $tmp[1];
+			} else {
+				// default image
+				$employee_photo[] = get_stylesheet_directory_uri() . "/assets/image/5/Team_photo_small.png";
+			}
+
+			$employee_content[] = $post->post_content;
+
+			$employee_count++;
+		endwhile;
+	endif;
+
+	wp_reset_query();
+
+	$height = 104 + 30 + 50 + 98 - 25 + (219 + 25) * $employee_count;
+
+	echo "<div class='career-associates-container box-container nattierblue' style='height:" . $height . "px'>";
+		echo "<div class='career-part5-container box-container' style='height:" . $height . "px'>";
+			echo "<div class='wrap'>";
+				echo "<span class='career-part5-title page-sub-title text-darkblue'>ANALYSTS/ASSOCIATES</span>";
+
+				for($i=0; $i<$employee_count; $i++)
+				{
+					$offset = 184 + (219 + 25) * $i;
+
+					echo "<div class='career-employee-cell' style='top:" . $offset . "px'>";
+
+						echo "<div class='career-employee-icon' style='background-image:url(" . $employee_photo[$i] .")'></div>";
+						echo "<div class='career-employee-intro sec-content text-darkblue')'>" . $employee_content[$i] ."</div>";
+
+					echo "</div>";
+				}
+
+			echo "</div>";
+		echo "</div>";
+	echo "</div>";
+
+?>
 
 
 <!-- career.php end -->
