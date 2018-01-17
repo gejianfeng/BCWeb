@@ -1162,6 +1162,19 @@ body {
 	width: 55px;
 }
 
+.banner-nav-home-pressed {
+	position:absolute;
+	font-size:12px;
+	color: rgb(255, 255, 255);
+	top:48px;
+	left: 370px;
+	background-image: url(assets/image/0/nav_icon_home_pressed.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	text-align: right;
+	width: 55px;
+}
+
 .banner-nav-research {
 	position:absolute;
 	font-size:12px;
@@ -1169,6 +1182,19 @@ body {
 	top:48px;
 	left: 455px;
 	background-image: url(assets/image/0/nav_icon_qr.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	text-align: right;
+	width: 148px;
+}
+
+.banner-nav-research-pressed {
+	position:absolute;
+	font-size:12px;
+	color: rgb(255, 255, 255);
+	top:48px;
+	left: 455px;
+	background-image: url(assets/image/0/nav_icon_qr_pressed.png);
 	background-repeat: no-repeat;
 	background-position: left;
 	text-align: right;
@@ -1188,6 +1214,19 @@ body {
 	width: 130px;
 }
 
+.banner-nav-investing-pressed {
+	position:absolute;
+	font-size:12px;
+	color: rgb(255, 255, 255);
+	top:48px;
+	left: 630px;
+	background-image: url(assets/image/0/nav_icon_invest_pressed.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	text-align: right;
+	width: 130px;
+}
+
 .banner-nav-blockchain {
 	position:absolute;
 	font-size:12px;
@@ -1201,6 +1240,19 @@ body {
 	width: 140px;
 }
 
+.banner-nav-blockchain-pressed {
+	position:absolute;
+	font-size:12px;
+	color: rgb(255, 255, 255);
+	top:48px;
+	left: 790px;
+	background-image: url(assets/image/0/nav_icon_block_pressed.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	text-align: right;
+	width: 140px;
+}
+
 .banner-nav-career {
 	position:absolute;
 	font-size:12px;
@@ -1208,6 +1260,19 @@ body {
 	top:48px;
 	left: 954px;
 	background-image: url(assets/image/0/nav_icon_career.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	text-align: right;
+	width: 60px;
+}
+
+.banner-nav-career-pressed {
+	position:absolute;
+	font-size:12px;
+	color: rgb(255, 255, 255);
+	top:48px;
+	left: 954px;
+	background-image: url(assets/image/0/nav_icon_career_pressed.png);
 	background-repeat: no-repeat;
 	background-position: left;
 	text-align: right;
