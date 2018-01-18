@@ -219,7 +219,7 @@ body {
 }
 
 .index-part2-icon-BC {
-	background-image: url(assets/image/1/crypto1rencies_icon.png);
+	background-image: url(assets/image/1/cryptocurrencies_icon.png);
 	top: 155px;
 	width: 52px;
 	height: 54px;
@@ -516,13 +516,10 @@ body {
 	background-position: center;
 	width:822px;
 	height:208px;
-	top:185px;
-	left:101px;
 }
 
 .index-part5-icon {
 	position:absolute;
-	background-image: url(assets/image/1/news_icon.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	width:126px;
@@ -768,11 +765,11 @@ body {
 }
 
 .research-p3-img3 {
-	background-image: url(assets/image/2/pic_GPOS_.jpg);
+	background-image: url(assets/image/2/pic_map.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	width: 441px;
-	height: 330px;
+	width: 402px;
+	height: 340px;
 	position:absolute;
 	left:0px;
 	top:840px;

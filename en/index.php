@@ -91,33 +91,306 @@ Template Name: index.php
 	</div>
 </div>
 
+<script type="text/javascript">
+	var CurMaIdx = 0;
+	var MoveMaCount = 0;
+	var MaObjCount = 0;
+	var MaObjPosArray;
+
+	var CurNrIdx = 0;
+	var MoveNrCount = 0;
+	var NrObjCount = 0;
+	var NrObjPosArray;
+
+	$(document).ready(function(){
+		//Main Achievements
+		for(var i = 0; i < 6; ++i)
+		{
+			var obj = document.getElementById("ma" + i.toString());
+			if (obj != null)
+			{
+				MaObjCount++;
+			}
+			else
+			{
+				break;
+			}
+		}
+
+		MaObjPosArray = new Array(MaObjCount);
+		for(var i = 0; i < MaObjCount; ++i)
+		{
+			MaObjPosArray[i] = i;
+		}
+
+		//News Report
+		for(var i = 0; i < 6; ++i)
+		{
+			var obj = document.getElementById("nr" + i.toString());
+			if (obj != null)
+			{
+				NrObjCount++;
+			}
+			else
+			{
+				break;
+			}
+		}
+
+		NrObjPosArray = new Array(NrObjCount);
+		for(var i = 0; i < NrObjCount; ++i)
+		{
+			NrObjPosArray[i] = i;
+		}
+	});
+
+	function OnMAPreviewClicked()
+	{
+		if (MoveMaCount > 0 || MaObjCount <= 0)
+		{
+			return;
+		}
+
+		for(var i = 0; i < MaObjCount; ++i)
+		{
+			var obj_name = "#ma" + i.toString();
+
+			var CurPosIdx = MaObjPosArray[i];
+
+			if (CurPosIdx > 2) {
+				CurPosIdx = CurPosIdx - MaObjCount;
+			}
+
+			var NextPosIdx = CurPosIdx + 1;
+
+			MaObjPosArray[i] = NextPosIdx;
+
+			var StartPos = (232 + 26) * CurPosIdx;
+			var EndPos = (232 + 26) * NextPosIdx;
+
+			MoveMaCount++;
+
+			$(obj_name).css({"left":StartPos.toString() + "px"});
+
+			if (CurPosIdx >= -1 && CurPosIdx <= 2)
+			{
+				$(obj_name).show();
+			}
+			else {
+				$(obj_name).hide();
+			}
+				
+			$(obj_name).animate({left:EndPos.toString() + 'px'}, 'slow', function(){
+				if (NextPosIdx < 0 || NextPosIdx > 2)
+				{
+					$(obj_name).hide();
+				}
+				MoveMaCount--;
+			});
+		}
+	}
+
+	function OnMANextClicked()
+	{
+		if (MoveMaCount > 0 || MaObjCount <= 0)
+		{
+			return;
+		}
+
+		for(var i = 0; i < MaObjCount; ++i)
+		{
+			var obj_name = "#ma" + i.toString();
+
+			var CurPosIdx = MaObjPosArray[i];
+
+			if (CurPosIdx < 0) {
+				CurPosIdx = CurPosIdx + MaObjCount;
+			}
+
+			var NextPosIdx = CurPosIdx - 1;
+
+			MaObjPosArray[i] = NextPosIdx;
+
+			var StartPos = (232 + 26) * CurPosIdx;
+			var EndPos = (232 + 26) * NextPosIdx;
+
+			MoveMaCount++;
+
+			$(obj_name).css({"left":StartPos.toString() + "px"});
+
+			if (CurPosIdx >= 0 && CurPosIdx <= 3)
+			{
+				$(obj_name).show();
+			}
+			else {
+				$(obj_name).hide();
+			}
+				
+			$(obj_name).animate({left:EndPos.toString() + 'px'}, 'slow', function(){
+				if (NextPosIdx < 0 || NextPosIdx > 2)
+				{
+					$(obj_name).hide();
+				}
+				MoveMaCount--;
+			});
+		}
+	}
+
+	function OnNRPreviewClicked()
+	{
+		if (MoveNrCount > 0 || NrObjCount <= 0)
+		{
+			return;
+		}
+
+		for(var i = 0; i < NrObjCount; ++i)
+		{
+			var obj_name = "#nr" + i.toString();
+
+			var CurPosIdx = NrObjPosArray[i];
+
+			if (CurPosIdx > 2) {
+				CurPosIdx = CurPosIdx - NrObjCount;
+			}
+
+			var NextPosIdx = CurPosIdx + 1;
+
+			NrObjPosArray[i] = NextPosIdx;
+
+			var StartPos = 822 * CurPosIdx;
+			var EndPos = 822 * NextPosIdx;
+
+			MoveNrCount++;
+
+			$(obj_name).css({"left":StartPos.toString() + "px"});
+
+			if (CurPosIdx >= -1 && CurPosIdx <= 0)
+			{
+				$(obj_name).show();
+			}
+			else {
+				$(obj_name).hide();
+			}
+				
+			$(obj_name).animate({left:EndPos.toString() + 'px'}, 'slow', function(){
+				if (NextPosIdx != 0)
+				{
+					$(obj_name).hide();
+				}
+				MoveNrCount--;
+			});
+		}
+	}
+
+	function OnNRNextClicked()
+	{
+		if (MoveNrCount > 0 || NrObjCount <= 0)
+		{
+			return;
+		}
+
+		for(var i = 0; i < NrObjCount; ++i)
+		{
+			var obj_name = "#nr" + i.toString();
+
+			var CurPosIdx = NrObjPosArray[i];
+
+			if (CurPosIdx < 0) {
+				CurPosIdx = CurPosIdx + NrObjCount;
+			}
+
+			var NextPosIdx = CurPosIdx - 1;
+
+			NrObjPosArray[i] = NextPosIdx;
+
+			var StartPos = 822 * CurPosIdx;
+			var EndPos = 822 * NextPosIdx;
+
+			MoveNrCount++;
+
+			$(obj_name).css({"left":StartPos.toString() + "px"});
+
+			if (CurPosIdx >= 0 && CurPosIdx <= 1)
+			{
+				$(obj_name).show();
+			}
+			else {
+				$(obj_name).hide();
+			}
+				
+			$(obj_name).animate({left:EndPos.toString() + 'px'}, 'slow', function(){
+				if (NextPosIdx != 0)
+				{
+					$(obj_name).hide();
+				}
+				MoveNrCount--;
+			});
+		}
+	}
+</script>
+
 <div class="index-achievements-container">
 	<div class='index-part4-container box-container'>
 		<div class="wrap">
 			<div class="page-sub-title index-part4-title text-white">Main Achievements</div>
 			<div class="white index-part4-title-line"></div>
 
-			<div class="index-part4-frame index-part4-frame1">
-				<div class="index-part4-icon">
-					<div class="index-part4-year text-white sec-title">2012</div>
-					<div class="index-part4-content sec-content text-darkblue" style="font-weight: bold">Defeat Short Sellers on New Oriental (EDUUS);</div>
-				</div>
-			</div>
-			<div class="index-part4-frame index-part4-frame2">
-				<div class="index-part4-icon">
-					<div class="index-part4-year text-white sec-title">2013</div>
-					<div class="index-part4-content sec-content text-darkblue" style="font-weight: bold">Earliest in Understanding YY's Business Model;</div>
-				</div>
-			</div>
-			<div class="index-part4-frame index-part4-frame3">
-				<div class="index-part4-icon">
-					<div class="index-part4-year text-white sec-title">2013</div>
-					<div class="index-part4-content sec-content text-darkblue" style="font-weight: bold">Opened China Branch;</div>
-				</div>
-			</div>
+<?php
+	$ma_query = new WP_Query('category_name=MainAchievements');
 
-			<div class="index-arrow-left index-part4-arrow-left"></div>
-			<div class="index-arrow-right index-part4-arrow-right"></div>
+	$ma_count = 0;
+	$ma_year = array();
+	$ma_content = array();
+
+	if ($ma_query->have_posts()):
+		while($ma_query->have_posts()) :
+			$ma_query->the_post();
+
+			$tmp = $post->post_title;
+			$tmp = explode('|', $tmp);
+			if (count($tmp) == 2) {
+				$ma_year[] = $tmp[0];
+				$ma_content[] = $tmp[1];
+
+				$ma_count++;
+			}
+		endwhile;
+	endif;
+
+	// limit only show 6 latest banner
+	if ($ma_count > 6)
+	{
+		$ma_count = 6;
+	}
+
+	wp_reset_query();
+
+	if ($ma_count > 3)
+	{
+		echo "<div class='index-arrow-left index-part4-arrow-left' style='cursor:pointer;' onclick='OnMAPreviewClicked();'></div>";
+		echo "<div class='index-arrow-right index-part4-arrow-right' style='cursor:pointer;' onclick='OnMANextClicked();'></div>";
+	}
+
+	if ($ma_count > 0)
+	{
+		echo "<div style='position:absolute; top:200px; left: 138px; overflow:hidden; height:284px; width:748px'>";
+			
+		for($i=0; $i<$ma_count; $i++)
+		{
+			$offset = (232 + 26) * $i;
+			$idx = $ma_count - 1 - $i;
+
+			echo "<div id='ma" . $i ."' class='index-part4-frame' style='left:" . $offset . "px'>";
+				echo "<div class='index-part4-icon'>";
+					echo "<div class='index-part4-year text-white sec-title'>" . $ma_year[$idx] . "</div>";
+					echo "<div class='index-part4-content sec-content text-darkblue' style='font-weight: bold'>" . $ma_content[$idx] . "</div>";
+				echo "</div>";
+			echo "</div>";
+		}
+
+		echo "</div>";
+	}
+?>
 		</div>
 	</div>
 </div>
@@ -127,16 +400,74 @@ Template Name: index.php
 		<div class="wrap">
 			<div class="page-sub-title index-part5-title text-darkblue">News Report</div>
 			<div class="darkblue index-part5-title-line"></div>
-			
-			<div class="index-part5-frame">
-				<div class="index-part5-icon"></div>
-				<div class="index-part5-more"></div>
-				<div class="index-part5-icon-calendar" style="text-align: right; font-size:18px; color:#1e408a;">November 1, 2016</div>
-				<div class="index-part5-content text-darkblue sec-content">Brought up by Bitcoin, blockchain technology is an open, secure, distributed computer system. Such system makes transactions take place without the need of a trusted authority or central server.</div>
-			</div>
 
-			<div class="index-arrow-left index-part5-arrow-left"></div>
-			<div class="index-arrow-right index-part5-arrow-right"></div>
+<?php
+	$nr_query = new WP_Query('category_name=NewsReport');
+
+	$nr_count = 0;
+	$nr_date = array();
+	$nr_content = array();
+	$nr_icon = array();
+
+	if ($nr_query->have_posts()):
+		while($nr_query->have_posts()) :
+			$nr_query->the_post();
+
+			$tmp = $post->post_title;
+			$tmp = explode('|', $tmp);
+			if (count($tmp) == 2) {
+				$nr_date[] = $tmp[1];
+				$nr_content[] = $post->post_content;
+				$nr_icon[] = get_stylesheet_directory_uri() . "/assets/image/1/news_icon.png";
+
+				$nr_count++;
+			}
+			else if (count($tmp) == 3) {
+				$nr_date[] = $tmp[1];
+				$nr_content[] = $post->post_content;
+				$nr_icon[] = $tmp[2];
+
+				$nr_count++;
+			}
+		endwhile;
+	endif;
+
+	// limit only show 6 latest banner
+	if ($nr_count > 6)
+	{
+		$nr_count = 6;
+	}
+
+	wp_reset_query();
+
+	if ($nr_count > 1)
+	{
+		echo "<div class='index-arrow-left index-part5-arrow-left' style='cursor:pointer;' onclick='OnNRPreviewClicked();'></div>";
+		echo "<div class='index-arrow-right index-part5-arrow-right' style='cursor:pointer;' onclick='OnNRNextClicked();'></div>";
+	}
+
+	if ($nr_count > 0)
+	{
+		echo "<div style='position:absolute; top:185px; left: 101px; overflow:hidden; height:208px; width:822px'>";
+			
+		for($i=0; $i<$nr_count; $i++)
+		{
+			$offset = 822 * $i;
+			$idx = $nr_count - 1 - $i;
+
+			echo "<div id='nr" . $i ."' class='index-part5-frame' style='left:" . $offset . "px'>";
+				echo "<div class='index-part5-icon' style='background-image: url(" . $nr_icon[$idx] . ");'></div>";
+				echo "<div class='index-part5-more'></div>";
+				echo "<div class='index-part5-icon-calendar' style='text-align: right; font-size:18px; color:#1e408a;'>" . $nr_date[$idx] . "</div>";
+				echo "<div class='index-part5-content text-darkblue sec-content'>" . $nr_content[$idx] . "</div>";
+			echo "</div>";
+		}
+
+		//<div class="index-part5-icon"></div>
+
+		echo "</div>";
+	}
+?>
 		</div>
 	</div>
 </div>
