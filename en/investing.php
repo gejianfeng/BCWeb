@@ -6,14 +6,20 @@ Template Name: investing.php
 <?php get_header(); ?>
 
 <!-- investing.php start -->
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#title").animate({"top": "92px", "opacity" : "1"}, 1000);
+		$("#content").delay(1000).animate({"top": "175px", "opacity" : "1"}, 1000);
+	});
+</script>
 
 <div class="investing-header-container">
 	<?php get_top_banner(); ?>
 
 	<div class='investing-part1-container box-container'>
 		<div class="wrap">
-			<span class="page-title investing-title">Alternative Investments</span>
-			<span class="content text-white investing-title-content">Goldpebble believes more research, less liquidity and longer value chain integration <br/>bring extra risk adjusted return to investors.  The traditional asset classes have been </br>too crowded and too mature for such return.<br/>With the world leading quantamental research capability, Goldpebble dedicatedly <br/>invests in alternative assets.</span>
+			<span id="title" class="page-title investing-title">Alternative Investments</span>
+			<span id="content" class="content text-white investing-title-content">Goldpebble believes more research, less liquidity and longer value chain integration <br/>bring extra risk adjusted return to investors.  The traditional asset classes have been </br>too crowded and too mature for such return.<br/>With the world leading quantamental research capability, Goldpebble dedicatedly <br/>invests in alternative assets.</span>
 		</div>
 	</div>
 </div>

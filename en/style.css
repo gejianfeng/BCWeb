@@ -632,8 +632,9 @@ body {
 	text-align: left;
 	width: 100%;
 	position:absolute;
-	top: 155px;
+	top: 255px; /* 155px */
 	left: 0px;
+	opacity: 0;
 }
 
 .research-data-chart {
@@ -853,16 +854,18 @@ body {
 	text-align: left;
 	width: 100%;
 	position:absolute;
-	top: 92px;
+	top: 192px; /*92px;*/
 	left: 0px;
+	opacity: 0;
 }
 
 .investing-title-content {
 	text-align: left;
 	width: 100%;
 	position:absolute;
-	top: 175px;
+	top: 275px; /*175px;*/
 	left: 0px;
+	opacity: 0;
 }
 
 .investing-sub-title1 {
