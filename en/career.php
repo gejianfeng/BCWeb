@@ -7,48 +7,122 @@ Template Name: career.php
 
 <!-- career.php start -->
 
+<script type="text/javascript">
+	var bTeamAnimPlayed = false;
+	var bCareerAnimPlayed = false;
+
+	$(document).ready(function(){
+		$("#main-title").animate({"top": "110px", "opacity" : "1"}, 1000);
+		$("#main-content").delay(1000).animate({"top": "195px", "opacity" : "1"}, 1000);
+	});
+
+	$(window).scroll(function(){
+		if (!bTeamAnimPlayed)
+		{
+			var team_div = document.getElementById("team");
+			var bottomPos = team_div.offsetTop + team_div.offsetHeight;
+			if (bottomPos >= $(window).scrollTop() && bottomPos < ($(window).scrollTop()+$(window).height())) {
+				bTeamAnimPlayed = true;
+
+				$("#team-title").animate({"top": "78px", "opacity" : "1"}, 1000);
+				$("#team-content").delay(1000).animate({"top": "150px", "opacity" : "1"}, 1000);
+			}
+		}
+
+		if (!bCareerAnimPlayed)
+		{
+			var cp_div = document.getElementById("cp");
+			var bottomPos = cp_div.offsetTop + cp_div.offsetHeight;
+			if (bottomPos >= $(window).scrollTop() && bottomPos < ($(window).scrollTop()+$(window).height())) {
+				bCareerAnimPlayed = true;
+
+				$("#cp_point1").animate({"opacity" : "1"}, 1000);
+
+				$("#cp_text_up1").delay(1000).animate({"opacity" : "1"}, 1000);
+				$("#cp_text_down1").delay(1000).animate({"opacity" : "1"}, 1000);
+
+				$("#cp_connect1").delay(2000).animate({"opacity" : "1"}, 1000);
+
+				$("#cp_point2").delay(3000).animate({"opacity" : "1"}, 1000);
+
+				$("#cp_text_up2").delay(4000).animate({"opacity" : "1"}, 1000);
+				$("#cp_text_down2").delay(4000).animate({"opacity" : "1"}, 1000);
+
+				$("#cp_connect2").delay(5000).animate({"opacity" : "1"}, 1000);
+
+				$("#cp_point3").delay(6000).animate({"opacity" : "1"}, 1000);
+
+				$("#cp_text_up3").delay(7000).animate({"opacity" : "1"}, 1000);
+				$("#cp_text_down3").delay(7000).animate({"opacity" : "1"}, 1000);
+
+				$("#cp_connect3").delay(8000).animate({"opacity" : "1"}, 1000);
+
+				$("#cp_point4").delay(9000).animate({"opacity" : "1"}, 1000);
+
+				$("#cp_text_up4").delay(10000).animate({"opacity" : "1"}, 1000);
+				$("#cp_text_down4").delay(10000).animate({"opacity" : "1"}, 1000);
+
+				$("#cp_connect4").delay(11000).animate({"opacity" : "1"}, 1000);
+
+				$("#cp_point5").delay(12000).animate({"opacity" : "1"}, 1000);
+
+				$("#cp_text_up5").delay(13000).animate({"opacity" : "1"}, 1000);
+				$("#cp_text_down5").delay(13000).animate({"opacity" : "1"}, 1000);
+
+				$("#cp_connect5").delay(14000).animate({"opacity" : "1"}, 1000);
+
+				$("#cp_point6").delay(15000).animate({"opacity" : "1"}, 1000);
+
+				$("#cp_text_up6").delay(16000).animate({"opacity" : "1"}, 1000);
+				$("#cp_text_down6").delay(16000).animate({"opacity" : "1"}, 1000);
+			}
+		}
+	});
+
+</script>
+
 <div class="career-header-container">
 	<?php get_top_banner(); ?>
 
 	<div class='career-part1-container box-container'>
 		<div class="wrap">
-			<span class="page-title career-title">Culture</span>
-			<span class="text-white career-title-content">We are truth seekers, problem solvers and people developers. We are finding <br/>solutions to combine investments and technologies through collaborative work of <br/>people from diversified background.</span>
+			<span id="main-title" class="page-title career-title">Culture</span>
+			<span id="main-content" class="text-white career-title-content">We are truth seekers, problem solvers and people developers. We are finding <br/>solutions to combine investments and technologies through collaborative work of <br/>people from diversified background.</span>
 		</div>
 	</div>
 </div>
 
-<div class="career-path-container">
+<div id="cp" class="career-path-container">
 	<div class='career-part2-container box-container'>
 		<div class="wrap">
 			<div class="career-part2-title1 page-sub-title text-darkblue">Career Path</div>
 
-			<div class="career-part2-jb-title career-part2-jb-text1 text-darkblue">&nbsp;<br/>PTA</div>
-			<div class="career-part2-jb-title career-part2-jb-text2 text-darkblue">Intern<br/>(Assistant Analyst)</div>
-			<div class="career-part2-jb-title career-part2-jb-text3 text-darkblue">&nbsp;<br/>Analyst</div>
-			<div class="career-part2-jb-title career-part2-jb-text4 text-darkblue">&nbsp;<br/>Senior Analyst</div>
-			<div class="career-part2-jb-title career-part2-jb-text5 text-darkblue">&nbsp;<br/>Principle</div>
-			<div class="career-part2-jb-title career-part2-jb-text6 text-darkblue">&nbsp;<br/>Partner</div>
+			<div id="cp_text_up1" class="career-part2-jb-title career-part2-jb-text1 text-darkblue">&nbsp;<br/>PTA</div>
+			<div id="cp_text_up2" class="career-part2-jb-title career-part2-jb-text2 text-darkblue">Intern<br/>(Assistant Analyst)</div>
+			<div id="cp_text_up3" class="career-part2-jb-title career-part2-jb-text3 text-darkblue">&nbsp;<br/>Analyst</div>
+			<div id="cp_text_up4" class="career-part2-jb-title career-part2-jb-text4 text-darkblue">&nbsp;<br/>Senior Analyst</div>
+			<div id="cp_text_up5" class="career-part2-jb-title career-part2-jb-text5 text-darkblue">&nbsp;<br/>Principle</div>
+			<div id="cp_text_up6" class="career-part2-jb-title career-part2-jb-text6 text-darkblue">&nbsp;<br/>Partner</div>
 
-			<div class="career-part2-jb-time career-part2-jb-text1 text-darkblue"><font size="5">0</font>Month</div>
-			<div class="career-part2-jb-time career-part2-jb-text2 text-darkblue"><font size="5">3</font>Month</div>
-			<div class="career-part2-jb-time career-part2-jb-text3 text-darkblue"><font size="5">15</font>Month</div>
-			<div class="career-part2-jb-time career-part2-jb-text4 text-darkblue"><font size="5">39</font>Month</div>
-			<div class="career-part2-jb-time career-part2-jb-text5 text-darkblue"><font size="5">63</font>Month</div>
-			<div class="career-part2-jb-time career-part2-jb-text6 text-darkblue"><font size="5">99</font>Month</div>
+			<div id="cp_text_down1" class="career-part2-jb-time career-part2-jb-text1 text-darkblue"><font size="5">0</font>Month</div>
+			<div id="cp_text_down2" class="career-part2-jb-time career-part2-jb-text2 text-darkblue"><font size="5">3</font>Month</div>
+			<div id="cp_text_down3" class="career-part2-jb-time career-part2-jb-text3 text-darkblue"><font size="5">15</font>Month</div>
+			<div id="cp_text_down4" class="career-part2-jb-time career-part2-jb-text4 text-darkblue"><font size="5">39</font>Month</div>
+			<div id="cp_text_down5" class="career-part2-jb-time career-part2-jb-text5 text-darkblue"><font size="5">63</font>Month</div>
+			<div id="cp_text_down6" class="career-part2-jb-time career-part2-jb-text6 text-darkblue"><font size="5">99</font>Month</div>
 
-			<div class="career-part2-jb-connect career-part2-jb-connect1 darkblue"></div>
-			<div class="career-part2-jb-connect career-part2-jb-connect2 darkblue"></div>
-			<div class="career-part2-jb-connect career-part2-jb-connect3 darkblue"></div>
-			<div class="career-part2-jb-connect career-part2-jb-connect4 darkblue"></div>
-			<div class="career-part2-jb-connect career-part2-jb-connect5 darkblue"></div>
+			<div id="cp_connect1" class="career-part2-jb-connect career-part2-jb-connect1 darkblue"></div>
+			<div id="cp_connect2" class="career-part2-jb-connect career-part2-jb-connect2 darkblue"></div>
+			<div id="cp_connect3" class="career-part2-jb-connect career-part2-jb-connect3 darkblue"></div>
+			<div id="cp_connect4" class="career-part2-jb-connect career-part2-jb-connect4 darkblue"></div>
+			<div id="cp_connect5" class="career-part2-jb-connect career-part2-jb-connect5 darkblue"></div>
 
-			<div class="career-part2-point career-part2-point1"></div>
-			<div class="career-part2-point career-part2-point2"></div>
-			<div class="career-part2-point career-part2-point3"></div>
-			<div class="career-part2-point career-part2-point4"></div>
-			<div class="career-part2-point career-part2-point5"></div>
-			<div class="career-part2-point career-part2-point6"></div>
+			<div id="cp_point1" class="career-part2-point career-part2-point1"></div>
+			<div id="cp_point2" class="career-part2-point career-part2-point2"></div>
+			<div id="cp_point3" class="career-part2-point career-part2-point3"></div>
+			<div id="cp_point4" class="career-part2-point career-part2-point4"></div>
+			<div id="cp_point5" class="career-part2-point career-part2-point5"></div>
+			<div id="cp_point6" class="career-part2-point career-part2-point6"></div>
 
 			<div class="career-part2-title2 page-sub-title text-darkblue">Application</div>
 			<div class="career-part2-frame">
@@ -59,11 +133,11 @@ Template Name: career.php
 	</div>
 </div>
 
-<div class="career-team-container">
+<div id="team" class="career-team-container">
 	<div class='career-part3-container box-container'>
 		<div class="wrap">
-			<span class="career-part3-title page-sub-title text-white">Team</span>
-			<span class="sec-content career-part3-content text-white">Goldpebble’s strategy is based on over 50 years’ collective experience among the <br/>partners in areas including investment research/management, due diligence in <br/>both the public and private markets, and global macro.<br/>Goldpebble employs over a dozen professionals globally with an additional 70 <br/>engineers and survey professionals throughout China.</span>
+			<span id="team-title" class="career-part3-title page-sub-title text-white">Team</span>
+			<span id="team-content" class="sec-content career-part3-content text-white">Goldpebble’s strategy is based on over 50 years’ collective experience among the <br/>partners in areas including investment research/management, due diligence in <br/>both the public and private markets, and global macro.<br/>Goldpebble employs over a dozen professionals globally with an additional 70 <br/>engineers and survey professionals throughout China.</span>
 		</div>
 	</div>
 </div>

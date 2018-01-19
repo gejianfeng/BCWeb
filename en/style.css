@@ -1075,18 +1075,20 @@ body {
 .career-title {
 	width: 100%;
 	position:absolute;
-	top: 110px;
+	top: 210px; /*110px;*/
 	text-align: center;
 	left: 0px;
+	opacity: 0;
 }
 
 .career-title-content {
 	width: 100%;
 	position:absolute;
-	top: 195px;
+	top: 295px; /*195px*/
 	text-align: center;
 	left: 0px;
 	font-size:18px;
+	opacity: 0;
 }
 
 .career-part2-title1 {
@@ -1140,6 +1142,7 @@ body {
 	position: absolute;
 	top: 182px;
 	text-align: center;
+	opacity: 0;
 }
 
 .career-part2-jb-time {
@@ -1148,6 +1151,7 @@ body {
 	position: absolute;
 	top: 300px;
 	text-align: center;
+	opacity: 0;
 }
 
 .career-part2-jb-text1 {
@@ -1179,6 +1183,7 @@ body {
 	height: 5px;
 	position: absolute;
 	top: 267px;
+	opacity: 0;
 }
 
 .career-part2-jb-connect1 {
@@ -1209,6 +1214,7 @@ body {
 	width:20px;
 	height:20px;
 	top: 260px;
+	opacity: 0;
 }
 
 .career-part2-point1 {
@@ -1237,17 +1243,19 @@ body {
 
 .career-part3-title {
 	position: absolute;
-	top: 78px;
+	top: 178px; /*78px;*/
 	text-align: center;
 	left: 0px;
+	opacity: 0;
 }
 
 .career-part3-content {
 	position: absolute;
-	top: 150px;
+	top: 250px;	/*150px;*/
 	text-align: center;
 	width: 100%;
 	left: 0px;
+	opacity: 0;
 }
 
 .career-part4-icon-bg {
