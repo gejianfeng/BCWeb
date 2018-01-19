@@ -249,7 +249,7 @@ Template Name: index.php
 
 			var CurPosIdx = NrObjPosArray[i];
 
-			if (CurPosIdx > 2) {
+			if (CurPosIdx > 0) {
 				CurPosIdx = CurPosIdx - NrObjCount;
 			}
 
@@ -339,13 +339,14 @@ Template Name: index.php
 	$ma_query = new WP_Query('category_name=MainAchievements');
 
 	$ma_count = 0;
-	$ma_year = array();
+	//$ma_year = array();
 	$ma_content = array();
 
 	if ($ma_query->have_posts()):
 		while($ma_query->have_posts()) :
 			$ma_query->the_post();
 
+			/*
 			$tmp = $post->post_title;
 			$tmp = explode('|', $tmp);
 			if (count($tmp) == 2) {
@@ -354,6 +355,9 @@ Template Name: index.php
 
 				$ma_count++;
 			}
+			*/
+			$ma_content[] = $post->post_content;
+			$ma_count++;
 		endwhile;
 	endif;
 
@@ -382,8 +386,9 @@ Template Name: index.php
 
 			echo "<div id='ma" . $i ."' class='index-part4-frame' style='left:" . $offset . "px'>";
 				echo "<div class='index-part4-icon'>";
-					echo "<div class='index-part4-year text-white sec-title'>" . $ma_year[$idx] . "</div>";
-					echo "<div class='index-part4-content sec-content text-darkblue' style='font-weight: bold'>" . $ma_content[$idx] . "</div>";
+					echo $ma_content[$idx];
+					//echo "<div class='index-part4-year text-white sec-title'>" . $ma_year[$idx] . "</div>";
+					//echo "<div class='index-part4-content sec-content text-darkblue' style='font-weight: bold'>" . $ma_content[$idx] . "</div>";
 				echo "</div>";
 			echo "</div>";
 		}
@@ -405,14 +410,15 @@ Template Name: index.php
 	$nr_query = new WP_Query('category_name=NewsReport');
 
 	$nr_count = 0;
-	$nr_date = array();
+	//$nr_date = array();
 	$nr_content = array();
-	$nr_icon = array();
+	//$nr_icon = array();
 
 	if ($nr_query->have_posts()):
 		while($nr_query->have_posts()) :
 			$nr_query->the_post();
 
+			/*
 			$tmp = $post->post_title;
 			$tmp = explode('|', $tmp);
 			if (count($tmp) == 2) {
@@ -429,6 +435,9 @@ Template Name: index.php
 
 				$nr_count++;
 			}
+			*/
+			$nr_content[] = $post->post_content;
+			$nr_count++;
 		endwhile;
 	endif;
 
@@ -456,10 +465,11 @@ Template Name: index.php
 			$idx = $nr_count - 1 - $i;
 
 			echo "<div id='nr" . $i ."' class='index-part5-frame' style='left:" . $offset . "px'>";
-				echo "<div class='index-part5-icon' style='background-image: url(" . $nr_icon[$idx] . ");'></div>";
-				echo "<div class='index-part5-more'></div>";
-				echo "<div class='index-part5-icon-calendar' style='text-align: right; font-size:18px; color:#1e408a;'>" . $nr_date[$idx] . "</div>";
-				echo "<div class='index-part5-content text-darkblue sec-content'>" . $nr_content[$idx] . "</div>";
+				echo $nr_content[$idx];
+				//echo "<div class='index-part5-icon' style='background-image: url(" . $nr_icon[$idx] . ");'></div>";
+				//echo "<div class='index-part5-more'></div>";
+				//echo "<div class='index-part5-icon-calendar' style='text-align: right; font-size:18px; color:#1e408a;'>" . $nr_date[$idx] . "</div>";
+				//echo "<div class='index-part5-content text-darkblue sec-content'>" . $nr_content[$idx] . "</div>";
 			echo "</div>";
 		}
 

@@ -200,13 +200,14 @@ Template Name: career.php
 	$employee_query = new WP_Query('category_name=Employee');
 
 	$employee_count = 0;
-	$employee_photo = array();
+	//$employee_photo = array();
 	$employee_content = array();
 
 	if ($employee_query->have_posts()):
 		while($employee_query->have_posts()) :
 			$employee_query->the_post();
 
+			/*
 			$tmp = $post->post_title;
 			$tmp = explode('|', $tmp);
 			if (count($tmp) == 2) {
@@ -216,6 +217,7 @@ Template Name: career.php
 				// default image
 				$employee_photo[] = get_stylesheet_directory_uri() . "/assets/image/5/Team_photo_small.png";
 			}
+			*/
 
 			$employee_content[] = $post->post_content;
 
@@ -237,9 +239,9 @@ Template Name: career.php
 					$offset = 184 + (219 + 25) * $i;
 
 					echo "<div class='career-employee-cell' style='top:" . $offset . "px'>";
-
-						echo "<div class='career-employee-icon' style='background-image:url(" . $employee_photo[$i] .")'></div>";
-						echo "<div class='career-employee-intro sec-content text-darkblue')'>" . $employee_content[$i] ."</div>";
+						echo $employee_content[$i];
+						//echo "<div class='career-employee-icon' style='background-image:url(" . $employee_photo[$i] .")'></div>";
+						//echo "<div class='career-employee-intro sec-content text-darkblue')'>" . $employee_content[$i] ."</div>";
 
 					echo "</div>";
 				}
