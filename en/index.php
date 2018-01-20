@@ -7,64 +7,113 @@ Template Name: index.php
 
 <!-- index.php start -->
 
+<script type="text/javascript">
+	var bBcPlayed = false;
+	var bBusinessPlayed = false;
+
+	$(document).ready(function(){
+		$("#main-logo").animate({"top": "180px", "opacity" : "1"}, 1000);
+		$("#main-cp-name").delay(500).animate({"top": "280px", "opacity" : "1"}, 1000);
+		$("#main-title").delay(1000).animate({"top": "380px", "opacity" : "1"}, 1000);
+		$("#main-content").delay(1500).animate({"top": "510px", "opacity" : "1"}, 1000);
+	});
+
+	$(window).scroll(function(){
+		if (!bBcPlayed)
+		{
+			var bc_div = document.getElementById("bc");
+			var bottomPos = bc_div.offsetTop + bc_div.offsetHeight / 2;
+			if (bottomPos >= $(window).scrollTop() && bottomPos < ($(window).scrollTop()+$(window).height())) {
+				bBcPlayed = true;
+
+				$("#bc1").animate({"opacity" : "1"}, 1000);
+				$("#bc2").delay(1000).animate({"opacity" : "1"}, 1000);
+				$("#bc3").delay(2000).animate({"opacity" : "1"}, 1000);
+			}
+		}
+
+		if (!bBusinessPlayed)
+		{
+			var biz_div = document.getElementById("business");
+			var bottomPos = biz_div.offsetTop + biz_div.offsetHeight;
+			if (bottomPos >= $(window).scrollTop() && bottomPos < ($(window).scrollTop()+$(window).height())) {
+				bBusinessPlayed = true;
+
+				$("#business1").animate({"opacity" : "1"}, 1000);
+				$("#business111").delay(1000).animate({"opacity" : "1"}, 1000);
+				$("#business112").delay(1000).animate({"opacity" : "1"}, 1000);
+				$("#business113").delay(1000).animate({"opacity" : "1"}, 1000);
+				$("#business121").delay(2000).animate({"opacity" : "1"}, 1000);
+				$("#business122").delay(2000).animate({"opacity" : "1"}, 1000);
+				$("#business123").delay(2000).animate({"opacity" : "1"}, 1000);
+				$("#business2").delay(3000).animate({"opacity" : "1"}, 1000);
+				$("#business211").delay(4000).animate({"opacity" : "1"}, 1000);
+				$("#business212").delay(4000).animate({"opacity" : "1"}, 1000);
+				$("#business221").delay(5000).animate({"opacity" : "1"}, 1000);
+				$("#business222").delay(5000).animate({"opacity" : "1"}, 1000);
+			}
+		}
+	});
+</script>
+
 <div class="index-header-container">
 	<?php get_top_banner(); ?>
 
 	<div class='index-part1-container box-container'>
 		<div class="wrap">
-			<div class="index-part1-logo"></div>
-			<div class="index-part1-name page-sub-title text-white">Goldpebble</div>
-			<div class="index-part1-main text-white">Investing Technology Company</div>
-			<div class="index-part1-content text-white">Building Investing Edge <br/>with Quantamental Data Technology</div>
+			<div id="main-logo" class="index-part1-logo"></div>
+			<div id="main-cp-name" class="index-part1-name page-sub-title text-white">Goldpebble</div>
+			<div id="main-title" class="index-part1-main text-white">Investing Technology Company</div>
+			<div id="main-content" class="index-part1-content text-white">Building Investing Edge <br/>with Quantamental Data Technology</div>
 		</div>
 	</div>
 </div>
 
 <div class="index-business-container">
-	<div class='index-part2-container box-container'>
+	<div id="business" class='index-part2-container box-container'>
 		<div class="wrap">
 			<div class="index-part2-sub-container index-part2-research">
 				<div class="page-sub-title index-part2-title text-white">Quantamental Research   <font size="5">➔</font></div>
-				<div class="index-part2-line">
+				<div id="business1" class="index-part2-line">
 					<hr/>
 				</div>
-				<div class="index-part2-icon index-part2-icon-QR"></div>
-				<div class="index-part2-icon index-part2-icon-AD"></div>
-				<div class="sec-title index-part2-title-QR text-white">Quantamental Research</div>
-				<div class="sec-content index-part2-content-QR text-white">Fundamental Investors</div>
-				<div class="sec-title index-part2-title-AD text-white">Alternative Data</div>
-				<div class="sec-content index-part2-content-AD text-white">Strategic Investors</div>
+				<div id="business111" class="index-part2-icon index-part2-icon-QR"></div>
+				<div id="business121" class="index-part2-icon index-part2-icon-AD"></div>
+				<div id="business112" class="sec-title index-part2-title-QR text-white">Quantamental Research</div>
+				<div id="business113" class="sec-content index-part2-content-QR text-white">Fundamental Investors</div>
+				<div id="business122" class="sec-title index-part2-title-AD text-white">Alternative Data</div>
+				<div id="business123" class="sec-content index-part2-content-AD text-white">Strategic Investors</div>
 			</div>
 			<div class="index-part2-sub-container index-part2-investing">
 				<div class="page-sub-title index-part2-title text-white">Alternative Investing   <font size="5">➔</font></div>
-				<div class="index-part2-line">
+				<div id="business2" class="index-part2-line">
 					<hr/>
 				</div>
-				<div class="index-part2-icon index-part2-icon-BC"></div>
-				<div class="index-part2-icon index-part2-icon-LE"></div>
-				<div class="sec-title index-part2-title-BC text-white">Cryptocurrencies</div>
-				<div class="sec-title index-part2-title-LE text-white">Live Events</div>
+				<div id="business211" class="index-part2-icon index-part2-icon-BC"></div>
+				<div id="business221" class="index-part2-icon index-part2-icon-LE"></div>
+				<div id="business212" class="sec-title index-part2-title-BC text-white">Cryptocurrencies</div>
+				<div id="business222" class="sec-title index-part2-title-LE text-white">Live Events</div>
 			</div>
 		</div>
 	</div>
 </div>
 
 <div class="index-blockchain-container">
-	<div class='index-part3-container box-container'>
+	<div id="bc" class='index-part3-container box-container'>
 		<div class="wrap">
 			<div class="page-sub-title index-part3-title-BC text-darkblue">Blockchain Technology</div>
 			<div class="darkblue index-part3-title-line"></div>
-			<div class="index-part3-BC-frame index-part3-BC-frame1">
+			<div id="bc1" class="index-part3-BC-frame index-part3-BC-frame1">
 				<div class="index-part3-BC-frame-icon index-part3-BC-frame-icon1"></div>
 				<div class="sec-title index-part3-BC-frame-title text-darkblue">Decentralization</div>
 				<div class="sec-content index-part3-BC-frame-content text-darkblue">Secure with Distributed <br/>System</div>
 			</div>
-			<div class="index-part3-BC-frame index-part3-BC-frame2">
+			<div id="bc2" class="index-part3-BC-frame index-part3-BC-frame2">
 				<div class="index-part3-BC-frame-icon index-part3-BC-frame-icon2"></div>
 				<div class="sec-title index-part3-BC-frame-title text-darkblue">Openess</div>
 				<div class="sec-content index-part3-BC-frame-content text-darkblue">Trust with Transparency</div>
 			</div>
-			<div class="index-part3-BC-frame index-part3-BC-frame3">
+			<div id="bc3"  class="index-part3-BC-frame index-part3-BC-frame3">
 				<div class="index-part3-BC-frame-icon index-part3-BC-frame-icon3"></div>
 				<div class="sec-title index-part3-BC-frame-title text-darkblue">Ecosystem</div>
 				<div class="sec-content index-part3-BC-frame-content text-darkblue">Grow with Collective <br/>Self Interest</div>
