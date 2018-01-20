@@ -290,7 +290,6 @@ body {
 	position:absolute;
 	text-align: center;
 	top: 75px;
-	opacity: 0;
 }
 
 .index-part3-title-line {
@@ -940,6 +939,27 @@ body {
 .blockchain-part1-container {
 	height: 1050px;
 	max-width:1920px;
+}
+
+.blockchain-anim {
+	position:absolute;
+	left: 0px;
+	top: 100px;
+	width: 100%;
+	height: 500px;
+}
+
+.blockchain-coin {
+	position: absolute;
+	background-image: url(assets/image/4/Blockchain-icon.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: 100%;
+	width: 158px;
+	height: 157px;
+	left:0px;
+	top:0px;
+	opacity: 0;
 }
 
 .blockchain-title {
