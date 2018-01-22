@@ -9,7 +9,7 @@ Template Name: research.php
 
 <script type="text/javascript">
 	$(document).ready(function(){
-		$("#title").animate({"top": "155px", "opacity" : "1"}, 1000);
+		$("#title").animate({"top": "155px", "opacity" : "1"}, 500);
 	});
 </script>
 
@@ -18,7 +18,7 @@ Template Name: research.php
 
 	<div class='research-part1-container box-container'>
 		<div class="wrap">
-			<span id="title" class="page-title research-title">Quantamental Research</span>
+			<span id="title" class="page-title research-title"><i>Quantamental</i> Analysis</span>
 		</div>
 	</div>
 </div>
@@ -38,17 +38,17 @@ Template Name: research.php
 				<hr/>
 			</div>
 			<span class="page-sub-title text-darkblue research-sub-title2">Longest Track Record with Fundamental Investors</span>
-			<span class="content text-darkblue research-sub-title2-content">Since 2012, Goldpebble has been pioneering in quantamental research with world leading fundamental investors who value in-depth fundamental analysis on both equities as well as the macro issues, and advanced quantamental technologies. <br/>Goldpebble has been the earliest quantamental research company with longest track records to adopt big data and cloud computing technologies in building investing edge. <br/>Goldpebble’s alternative data about companies’ key operation metrics have been more accurate than wall street analysts with more than 20 quarters not only on mid cap companies such as MOMO and YY but also on mega cap companies such as Tencent and BABA.</span>
+			<span class="content text-darkblue research-sub-title2-content">Since 2012, Goldpebble has been pioneering in providing <i>quantamental</i> (fundamental + quantitative) research to world top investors: in-depth fundamental analysis and advanced quantitative research are combined in both equities and macro issues. With the longest track record, Goldpebble is the first research company to adopt big data and cloud computing technologies in building investing edge. <br/>Goldpebble’s alternative data about companies’ key operation metrics have been more accurate than Wall Street analysis for more than 20 quarters. The companies covered not only includes mid-cap ones such as MOMO and YY, but also mega-cap companies such as Tencent and BABA.</span>
 			<div class="research-line2">
 				<hr/>
 			</div>
 			<span class="page-sub-title text-darkblue research-sub-title3">Not Only Data, But Also Fundamentals</span>
-			<span class="content text-darkblue research-sub-title3-content">With quantamental research, Goldpebble is the only investing technology company who is not only able to estimate companies’ financials, but also able to understand those subtle differences that may lead to real edge about fundamentals over the whole market.</span>
+			<span class="content text-darkblue research-sub-title3-content">With <i>quantamental</i> research, Goldpebble can precisely estimate companies’ financials, understand the subtle trend of market, and figure out firms’ potentials that may lead to real edge over the whole market.</span>
 			<div class="research-line3">
 				<hr/>
 			</div>
 			<span class="page-sub-title text-darkblue research-sub-title4">System Makes Differences</span>
-			<span class="content text-darkblue research-sub-title4-content">Goldpebble implements the leading technology in big data processing with expertise in investment research applications. <br/>Goldpebble built proprietary systems including GP HIDEN, GP CORE, GP OS and GP Psyc to offer the best quantamental research in China to global mutual funds, hedge funds, corporate leaders and family offices.</span>
+			<span class="content text-darkblue research-sub-title4-content">Supplemented by leading technology in big data processing, Goldpebble extends its expertise in investment research. Goldpebble has built several proprietary systems, including GP HIDEN, GP CORE, GP OS and GP Psyc, and provides the best <i>quantamental</i> research service in China to global mutual funds, hedge funds, corporate leaders and family offices.</span>
 		</div>
 	</div>
 </div>
@@ -64,7 +64,7 @@ Template Name: research.php
 			<span class="page-sub-title text-darkblue research-p3-sub-title2">Goldpebble Core Data Services (GP Core)</span>
 			<span class="content text-darkblue research-p3-sub-title2-content"><b>GP Core generates high frequency, real time data from structured data sources: </b><br/>-Traditional data sources: company filings, industry and macro data <br/>-Big data sources: social networks, search engines, ecommerce transactions</span>
 			<span class="page-sub-title text-darkblue research-p3-sub-title3">Goldpebble Offline Services (GP OS)</span>
-			<span class="content text-darkblue research-p3-sub-title3-content">The missing component of data applications is normally unavailable information or unverifiable correlations. Goldpebble has built its own offline survey system and maintains a real-time responsive team that covers 2,400 cities across China with great accessibility, flexibility and quality.</span>
+			<span class="content text-darkblue research-p3-sub-title3-content">The missing component of data applications is normally unavailable information or unverifiable correlations. Goldpebble has built its own offline survey system and maintains a real-time responsive team that covers 2,400 cities across China with high accessibility, flexibility and quality.</span>
 		</div>
 	</div>
 </div>

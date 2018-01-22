@@ -12,8 +12,8 @@ Template Name: career.php
 	var bCareerAnimPlayed = false;
 
 	$(document).ready(function(){
-		$("#main-title").animate({"top": "110px", "opacity" : "1"}, 1000);
-		$("#main-content").delay(1000).animate({"top": "195px", "opacity" : "1"}, 1000);
+		$("#main-title").animate({"top": "110px", "opacity" : "1"}, 500);
+		$("#main-content").delay(500).animate({"top": "195px", "opacity" : "1"}, 500);
 	});
 
 	$(window).scroll(function(){
@@ -24,8 +24,8 @@ Template Name: career.php
 			if (bottomPos >= $(window).scrollTop() && bottomPos < ($(window).scrollTop()+$(window).height())) {
 				bTeamAnimPlayed = true;
 
-				$("#team-title").animate({"top": "78px", "opacity" : "1"}, 1000);
-				$("#team-content").delay(1000).animate({"top": "150px", "opacity" : "1"}, 1000);
+				$("#team-title").animate({"top": "78px", "opacity" : "1"}, 500);
+				$("#team-content").delay(500).animate({"top": "150px", "opacity" : "1"}, 500);
 			}
 		}
 
@@ -36,45 +36,45 @@ Template Name: career.php
 			if (bottomPos >= $(window).scrollTop() && bottomPos < ($(window).scrollTop()+$(window).height())) {
 				bCareerAnimPlayed = true;
 
-				$("#cp_point1").animate({"opacity" : "1"}, 1000);
+				$("#cp_point1").animate({"opacity" : "1"}, 500);
 
-				$("#cp_text_up1").delay(1000).animate({"opacity" : "1"}, 1000);
-				$("#cp_text_down1").delay(1000).animate({"opacity" : "1"}, 1000);
+				$("#cp_text_up1").delay(500).animate({"opacity" : "1"}, 500);
+				$("#cp_text_down1").delay(500).animate({"opacity" : "1"}, 500);
 
-				$("#cp_connect1").delay(2000).animate({"opacity" : "1"}, 1000);
+				$("#cp_connect1").delay(1000).animate({"opacity" : "1"}, 500);
 
-				$("#cp_point2").delay(3000).animate({"opacity" : "1"}, 1000);
+				$("#cp_point2").delay(1500).animate({"opacity" : "1"}, 500);
 
-				$("#cp_text_up2").delay(4000).animate({"opacity" : "1"}, 1000);
-				$("#cp_text_down2").delay(4000).animate({"opacity" : "1"}, 1000);
+				$("#cp_text_up2").delay(2000).animate({"opacity" : "1"}, 500);
+				$("#cp_text_down2").delay(2000).animate({"opacity" : "1"}, 500);
 
-				$("#cp_connect2").delay(5000).animate({"opacity" : "1"}, 1000);
+				$("#cp_connect2").delay(2500).animate({"opacity" : "1"}, 500);
 
-				$("#cp_point3").delay(6000).animate({"opacity" : "1"}, 1000);
+				$("#cp_point3").delay(3000).animate({"opacity" : "1"}, 500);
 
-				$("#cp_text_up3").delay(7000).animate({"opacity" : "1"}, 1000);
-				$("#cp_text_down3").delay(7000).animate({"opacity" : "1"}, 1000);
+				$("#cp_text_up3").delay(3500).animate({"opacity" : "1"}, 500);
+				$("#cp_text_down3").delay(3500).animate({"opacity" : "1"}, 500);
 
-				$("#cp_connect3").delay(8000).animate({"opacity" : "1"}, 1000);
+				$("#cp_connect3").delay(4000).animate({"opacity" : "1"}, 500);
 
-				$("#cp_point4").delay(9000).animate({"opacity" : "1"}, 1000);
+				$("#cp_point4").delay(4500).animate({"opacity" : "1"}, 500);
 
-				$("#cp_text_up4").delay(10000).animate({"opacity" : "1"}, 1000);
-				$("#cp_text_down4").delay(10000).animate({"opacity" : "1"}, 1000);
+				$("#cp_text_up4").delay(5000).animate({"opacity" : "1"}, 500);
+				$("#cp_text_down4").delay(5000).animate({"opacity" : "1"}, 500);
 
-				$("#cp_connect4").delay(11000).animate({"opacity" : "1"}, 1000);
+				$("#cp_connect4").delay(5500).animate({"opacity" : "1"}, 500);
 
-				$("#cp_point5").delay(12000).animate({"opacity" : "1"}, 1000);
+				$("#cp_point5").delay(6000).animate({"opacity" : "1"}, 500);
 
-				$("#cp_text_up5").delay(13000).animate({"opacity" : "1"}, 1000);
-				$("#cp_text_down5").delay(13000).animate({"opacity" : "1"}, 1000);
+				$("#cp_text_up5").delay(6500).animate({"opacity" : "1"}, 500);
+				$("#cp_text_down5").delay(6500).animate({"opacity" : "1"}, 500);
 
-				$("#cp_connect5").delay(14000).animate({"opacity" : "1"}, 1000);
+				$("#cp_connect5").delay(7000).animate({"opacity" : "1"}, 500);
 
-				$("#cp_point6").delay(15000).animate({"opacity" : "1"}, 1000);
+				$("#cp_point6").delay(7500).animate({"opacity" : "1"}, 500);
 
-				$("#cp_text_up6").delay(16000).animate({"opacity" : "1"}, 1000);
-				$("#cp_text_down6").delay(16000).animate({"opacity" : "1"}, 1000);
+				$("#cp_text_up6").delay(8000).animate({"opacity" : "1"}, 500);
+				$("#cp_text_down6").delay(8000).animate({"opacity" : "1"}, 500);
 			}
 		}
 	});

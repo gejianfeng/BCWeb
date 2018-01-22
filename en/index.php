@@ -12,10 +12,10 @@ Template Name: index.php
 	var bBusinessPlayed = false;
 
 	$(document).ready(function(){
-		$("#main-logo").animate({"top": "180px", "opacity" : "1"}, 1000);
-		$("#main-cp-name").delay(500).animate({"top": "280px", "opacity" : "1"}, 1000);
-		$("#main-title").delay(1000).animate({"top": "380px", "opacity" : "1"}, 1000);
-		$("#main-content").delay(1500).animate({"top": "510px", "opacity" : "1"}, 1000);
+		$("#main-logo").animate({"top": "180px", "opacity" : "1"}, 500);
+		$("#main-cp-name").delay(500).animate({"top": "280px", "opacity" : "1"}, 500);
+		$("#main-title").delay(1000).animate({"top": "380px", "opacity" : "1"}, 500);
+		$("#main-content").delay(1500).animate({"top": "510px", "opacity" : "1"}, 500);
 	});
 
 	$(window).scroll(function(){
@@ -26,9 +26,9 @@ Template Name: index.php
 			if (bottomPos >= $(window).scrollTop() && bottomPos < ($(window).scrollTop()+$(window).height())) {
 				bBcPlayed = true;
 
-				$("#bc1").animate({"opacity" : "1"}, 1000);
-				$("#bc2").delay(1000).animate({"opacity" : "1"}, 1000);
-				$("#bc3").delay(2000).animate({"opacity" : "1"}, 1000);
+				$("#bc1").animate({"opacity" : "1"}, 500);
+				$("#bc2").delay(500).animate({"opacity" : "1"}, 500);
+				$("#bc3").delay(1000).animate({"opacity" : "1"}, 500);
 			}
 		}
 
@@ -39,18 +39,18 @@ Template Name: index.php
 			if (bottomPos >= $(window).scrollTop() && bottomPos < ($(window).scrollTop()+$(window).height())) {
 				bBusinessPlayed = true;
 
-				$("#business1").animate({"opacity" : "1"}, 1000);
-				$("#business111").delay(1000).animate({"opacity" : "1"}, 1000);
-				$("#business112").delay(1000).animate({"opacity" : "1"}, 1000);
-				$("#business113").delay(1000).animate({"opacity" : "1"}, 1000);
-				$("#business121").delay(2000).animate({"opacity" : "1"}, 1000);
-				$("#business122").delay(2000).animate({"opacity" : "1"}, 1000);
-				$("#business123").delay(2000).animate({"opacity" : "1"}, 1000);
-				$("#business2").delay(3000).animate({"opacity" : "1"}, 1000);
-				$("#business211").delay(4000).animate({"opacity" : "1"}, 1000);
-				$("#business212").delay(4000).animate({"opacity" : "1"}, 1000);
-				$("#business221").delay(5000).animate({"opacity" : "1"}, 1000);
-				$("#business222").delay(5000).animate({"opacity" : "1"}, 1000);
+				$("#business1").animate({"opacity" : "1"}, 500);
+				$("#business111").delay(500).animate({"opacity" : "1"}, 500);
+				$("#business112").delay(500).animate({"opacity" : "1"}, 500);
+				$("#business113").delay(500).animate({"opacity" : "1"}, 500);
+				$("#business121").delay(1000).animate({"opacity" : "1"}, 500);
+				$("#business122").delay(1000).animate({"opacity" : "1"}, 500);
+				$("#business123").delay(1000).animate({"opacity" : "1"}, 500);
+				$("#business2").delay(1500).animate({"opacity" : "1"}, 500);
+				$("#business211").delay(2000).animate({"opacity" : "1"}, 500);
+				$("#business212").delay(2000).animate({"opacity" : "1"}, 500);
+				$("#business221").delay(2500).animate({"opacity" : "1"}, 500);
+				$("#business222").delay(2500).animate({"opacity" : "1"}, 500);
 			}
 		}
 	});
@@ -64,7 +64,7 @@ Template Name: index.php
 			<div id="main-logo" class="index-part1-logo"></div>
 			<div id="main-cp-name" class="index-part1-name page-sub-title text-white">Goldpebble</div>
 			<div id="main-title" class="index-part1-main text-white">Investing Technology Company</div>
-			<div id="main-content" class="index-part1-content text-white">Building Investing Edge <br/>with Quantamental Data Technology</div>
+			<div id="main-content" class="index-part1-content text-white">Building Investing Edge <br/>with <i>Quantamental</i> Data Technology</div>
 		</div>
 	</div>
 </div>
@@ -73,16 +73,16 @@ Template Name: index.php
 	<div id="business" class='index-part2-container box-container'>
 		<div class="wrap">
 			<div class="index-part2-sub-container index-part2-research">
-				<div class="page-sub-title index-part2-title text-white">Quantamental Research   <font size="5">➔</font></div>
+				<div class="page-sub-title index-part2-title text-white"><i>Quantamental</i> Analysis   <font size="5">➔</font></div>
 				<div id="business1" class="index-part2-line">
 					<hr/>
 				</div>
 				<div id="business111" class="index-part2-icon index-part2-icon-QR"></div>
 				<div id="business121" class="index-part2-icon index-part2-icon-AD"></div>
-				<div id="business112" class="sec-title index-part2-title-QR text-white">Quantamental Research</div>
-				<div id="business113" class="sec-content index-part2-content-QR text-white">Fundamental Investors</div>
+				<div id="business112" class="sec-title index-part2-title-QR text-white"><i>Quantamental</i> Analysis</div>
+				<!--<div id="business113" class="sec-content index-part2-content-QR text-white">Fundamental Investors</div>-->
 				<div id="business122" class="sec-title index-part2-title-AD text-white">Alternative Data</div>
-				<div id="business123" class="sec-content index-part2-content-AD text-white">Strategic Investors</div>
+				<!--<div id="business123" class="sec-content index-part2-content-AD text-white">Strategic Investors</div>-->
 			</div>
 			<div class="index-part2-sub-container index-part2-investing">
 				<div class="page-sub-title index-part2-title text-white">Alternative Investing   <font size="5">➔</font></div>
@@ -106,7 +106,7 @@ Template Name: index.php
 			<div id="bc1" class="index-part3-BC-frame index-part3-BC-frame1">
 				<div class="index-part3-BC-frame-icon index-part3-BC-frame-icon1"></div>
 				<div class="sec-title index-part3-BC-frame-title text-darkblue">Decentralization</div>
-				<div class="sec-content index-part3-BC-frame-content text-darkblue">Secure with Distributed <br/>System</div>
+				<div class="sec-content index-part3-BC-frame-content text-darkblue">Security with Distributed <br/>System</div>
 			</div>
 			<div id="bc2" class="index-part3-BC-frame index-part3-BC-frame2">
 				<div class="index-part3-BC-frame-icon index-part3-BC-frame-icon2"></div>
@@ -116,7 +116,7 @@ Template Name: index.php
 			<div id="bc3"  class="index-part3-BC-frame index-part3-BC-frame3">
 				<div class="index-part3-BC-frame-icon index-part3-BC-frame-icon3"></div>
 				<div class="sec-title index-part3-BC-frame-title text-darkblue">Ecosystem</div>
-				<div class="sec-content index-part3-BC-frame-content text-darkblue">Grow with Collective <br/>Self Interest</div>
+				<div class="sec-content index-part3-BC-frame-content text-darkblue">Growth with Collective <br/>Self Interests</div>
 			</div>
 			<div class="index-part3-info index-part3-info1">
 				<div class="index-part3-icon index-part3-icon1"></div>
@@ -126,12 +126,12 @@ Template Name: index.php
 			<div class="index-part3-info index-part3-info2">
 				<div class="index-part3-icon index-part3-icon2"></div>
 				<div class="index-part3-info-title text-white">Edge</div>
-				<div class="index-part3-info-content content text-white">Goldpebble excels in bottoms-up quantamental analysis through primary data acquisition and cutting edge technology.</div>
+				<div class="index-part3-info-content content text-white">Goldpebble excels in bottom-up <i>quantamental</i> analysis through primary data acquisition and cutting edge technology.</div>
 			</div>
 			<div class="index-part3-info index-part3-info3">
 				<div class="index-part3-icon index-part3-icon3"></div>
 				<div class="index-part3-info-title text-white">Technology</div>
-				<div class="index-part3-info-content content text-white">Using propreitary quantamental algorithms, Goldpebble acquires the most relevant data through traditional company filings, media news and economic data, as well as, company websites, social networks and big data.</div>
+				<div class="index-part3-info-content content text-white">Using proprietary <i>quantamental</i> algorithms, Goldpebble acquires the most relevant data through both traditional sources (company filings, announces, macroeconomic data, etc.) and alternative sources, such as social networks and big data analysis.</div>
 			</div>
 			<div class="index-part3-read-more">
 				<div class="index-part3-read-more-text text-white">Read more</div>

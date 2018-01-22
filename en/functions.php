@@ -19,10 +19,10 @@ function get_top_banner()
 	}
 
 	if (is_page('quantamentalresearch')) {
-			$ret.= "<div class='banner-nav-research-pressed'>Quantamental Research</div>";
+			$ret.= "<div class='banner-nav-research-pressed'><i>Quantamental</i> Analysis</div>";
 	} 
 	else {
-			$ret.= "<div class='banner-nav-research' style='cursor:pointer' onclick='SwitchPage(1)'><div class='text-transparent'>Quantamental Research</div></div>";
+			$ret.= "<div class='banner-nav-research' style='cursor:pointer' onclick='SwitchPage(1)'><div class='text-transparent'><i>Quantamental</i> Analysis</div></div>";
 	}
 
 	if (is_page('alternativeinvesting')) {

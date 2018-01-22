@@ -12,11 +12,11 @@ Template Name: blockchain.php
 	$(document).ready(function(){
 		CreateCoin();
 
-		$("#main-title").animate({"top": "145px", "opacity" : "1"}, 1000);
-		$("#main-content").delay(1000).animate({"top": "240px", "opacity" : "1"}, 1000);
-		$("#box1").delay(2000).animate({"opacity" : "1"}, 1000);
-		$("#box2").delay(3000).animate({"opacity" : "1"}, 1000);
-		$("#box3").delay(4000).animate({"opacity" : "1"}, 1000);
+		$("#main-title").animate({"top": "145px", "opacity" : "1"}, 500);
+		$("#main-content").delay(500).animate({"top": "240px", "opacity" : "1"}, 500);
+		$("#box1").delay(1000).animate({"opacity" : "1"}, 500);
+		$("#box2").delay(1500).animate({"opacity" : "1"}, 500);
+		$("#box3").delay(2000).animate({"opacity" : "1"}, 500);
 
 		StartCoinAnim();
 	});
@@ -109,14 +109,14 @@ Template Name: blockchain.php
 			<div id="anim" class="blockchain-anim"></div>
 
 			<span id="main-title" class="page-title blockchain-title">Blockchain Technology</span>
-			<span id="main-content" class="text-white blockchain-title-content">Brought up by Bitcoin, blockchain technology is <br/>an open, secure, distributed computer system.  Such system makes <br/>transactions take place without the need of a trusted authority or <br/>central server.  The Bitcoin successfully applied blockchain technology <br/>into the digital currency and made blockchain a great ledger to record <br/>value best associated with financial industry. <br/>Not only treats blockchain as the backbone of cryptocurrencies, <br/>Goldpebble also develops blockchain applications.</span>
+			<span id="main-content" class="text-white blockchain-title-content">Pioneered by Bitcoin, blockchain technology is a decentralized and distributed ledger which is open and secure. The technology enables transactions without the need of a trusted authority or central sever. Cryptocurrency (represented by Bitcoin) provided the prototype for the application into digital currency, and smart contract platform (represented by Ethereum) further broadens the boundary. Blockchain has gone much further from the backbone of cryptocurrencies to a technology with potentials to renew the landscape of several existing markets. Goldpebble also develops blockchain applications.</span>
 			<div id="box1" class="blockchain-box-container blockchain-box1">
 				<div class="blockchain-box-icon blockchain-box1-icon"></div>
 				<span class="blockchain-box-title text-darkblue">
 					Decentralization
 				</span>
 				<span class="blockchain-box-content text-darkblue">
-					Secure with Distributed <br/>System
+					Security with Distributed <br/>System
 				</span>
 			</div>
 			<div id="box2" class="blockchain-box-container blockchain-box2">
@@ -134,7 +134,7 @@ Template Name: blockchain.php
 					Ecosystem
 				</span>
 				<span class="blockchain-box-content text-darkblue">
-					Grow with Collective <br/>Self Interest
+					Growth with Collective <br/>Self Interests
 				</span>
 			</div>
 		</div>

@@ -8,8 +8,8 @@ Template Name: investing.php
 <!-- investing.php start -->
 <script type="text/javascript">
 	$(document).ready(function(){
-		$("#title").animate({"top": "92px", "opacity" : "1"}, 1000);
-		$("#content").delay(1000).animate({"top": "175px", "opacity" : "1"}, 1000);
+		$("#title").animate({"top": "92px", "opacity" : "1"}, 500);
+		$("#content").delay(500).animate({"top": "175px", "opacity" : "1"}, 500);
 	});
 </script>
 
@@ -19,7 +19,7 @@ Template Name: investing.php
 	<div class='investing-part1-container box-container'>
 		<div class="wrap">
 			<span id="title" class="page-title investing-title">Alternative Investments</span>
-			<span id="content" class="content text-white investing-title-content">Goldpebble believes more research, less liquidity and longer value chain integration <br/>bring extra risk adjusted return to investors.  The traditional asset classes have been </br>too crowded and too mature for such return.<br/>With the world leading quantamental research capability, Goldpebble dedicatedly <br/>invests in alternative assets.</span>
+			<span id="content" class="content text-white investing-title-content">Traditional asset classes have been densely covered, too crowded and matured for <br/>general investors to achieve high risk adjusted returns. Higher risk adjusted returns <br/>are usually accompanied with alternative assets integrating long value in a market <br/>of limited liquidity which have been thoroughly researched. With the world leading <br/><i>quantamental</i> research capability, Goldpebble is dedicated to investment in these <br/>alternative assets.</span>
 		</div>
 	</div>
 </div>
@@ -28,12 +28,12 @@ Template Name: investing.php
 	<div class='investing-part2-container box-container'>
 		<div class="wrap">
 			<span class="page-sub-title text-darkblue investing-sub-title1">Cryptocurrencies</span>
-			<span class="content text-darkblue investing-sub-title1-content">Cryptocurrencies, based on blockchain technology and introduced by Bitcoin, have its unique characteristics.  They do not usually generate future cash flows and are misunderstood by many traditional investors. Due to the technology and financial nature of the cryptocurrencies, Goldpebble’s team is well equipped and among the very first financial firms to understand their fundamentals.   Goldpebble has been developing a proprietary valuation framework, using quantamental research technology, to pick out the most valuable ones from thousands cryptocurrencies.</span>
+			<span class="content text-darkblue investing-sub-title1-content">With the unique characteristics endowed by blockchain technology, Cryptocurrencies differentiates themselves from other assets: it is hard to carry out valuation as cryptocurrencies usually do not generate future cash flows, and the technical properties build a barrier for traditional investors to understand their fundamentals. With <i>quantamental</i> research expertise, Goldpebble has been developing a proprietary valuation framework to pick out the most valuable ones from thousands of candidates.</span>
 			<div class="investing-line"/>
 				<hr/>
 			</div>
 			<span class="page-sub-title text-darkblue investing-sub-title2">Live Events</span>
-			<span class="content text-darkblue investing-sub-title2-content">Goldpebble, through its sister company in China, manages China’s largest live event fund.  By estimating live event’s attendance and pricing, Goldpebble provides funding to hundreds of live events every year while almost no traditional investors do.</span>
+			<span class="content text-darkblue investing-sub-title2-content">Goldpebble, through its sister company in China, manages the largest live event fund in China. With <i>quantamental</i> capacities, Goldpebble can precisely estimate the attendance and revenue of a live event, thus figuring out the profitable events among thousands of candidates. Goldpebble is the only company that provides funds to hundreds of live events every year.</span>
 		</div>
 	</div>
 </div>

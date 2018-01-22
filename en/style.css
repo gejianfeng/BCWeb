@@ -1323,13 +1323,14 @@ body {
 	position: absolute;
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: 134px 134px;
 	width:134px;
 	height:134px;
 	top:118px;
 }
 
 .career-part4-icon-big1 {
-	background-image: url(assets/image/5/Team_photo_big.png);
+	background-image: url(assets/image/5/head_portrait_placeholder.png);
 	left:287px;
 }
 
@@ -1339,7 +1340,7 @@ body {
 }
 
 .career-part4-icon-big3 {
-	background-image: url(assets/image/5/Team_photo_big.png);
+	background-image: url(assets/image/5/head_portrait_placeholder.png);
 	left:603px;
 }
 
@@ -1347,6 +1348,7 @@ body {
 	position: absolute;
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: 92px 89px;
 	width:92px;
 	height:89px;
 	top:140px;
@@ -1354,7 +1356,7 @@ body {
 }
 
 .career-part4-icon-sml1 {
-	background-image: url(assets/image/5/Team_photo_small.png);
+	background-image: url(assets/image/5/head_portrait_placeholder.png);
 	left:308px;
 }
 
@@ -1364,7 +1366,7 @@ body {
 }
 
 .career-part4-icon-sml3 {
-	background-image: url(assets/image/5/Team_photo_small.png);
+	background-image: url(assets/image/5/head_portrait_placeholder.png);
 	left:624px;
 }
 
@@ -1421,6 +1423,7 @@ body {
 	position:absolute;
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: 92px 89px;
 	width: 92px;
 	height: 89px;
 	left: 56px;
