@@ -34,6 +34,10 @@ Template Name: investing.php
 			</div>
 			<span class="page-sub-title text-darkblue investing-sub-title2">Live Events</span>
 			<span class="content text-darkblue investing-sub-title2-content">Goldpebble, through its sister company in China, manages the largest live event fund in China. With <i>quantamental</i> capacities, Goldpebble can precisely estimate the attendance and revenue of a live event, thus figuring out the profitable events among thousands of candidates. Goldpebble is the only company that provides funds to hundreds of live events every year.</span>
+			<div class="investing-live-image investing-live-image1"></div>
+			<div class="investing-live-image investing-live-image2"></div>
+			<div class="investing-live-image investing-live-image3"></div>
+			<div class="investing-live-image investing-live-image4"></div>
 		</div>
 	</div>
 </div>

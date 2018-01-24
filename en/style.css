@@ -849,7 +849,7 @@ body {
 
 .investing-s1-container {
 	max-width:1920px;
-	height:665px;
+	height:1065px;
 	background-size:1920px 665px;
 }
 
@@ -859,7 +859,7 @@ body {
 }
 
 .investing-part2-container {
-	height: 665px;
+	height: 1065px;
 	max-width:1920px;
 }
 
@@ -918,6 +918,45 @@ body {
 	position:absolute;
 	top: 510px;
 	left: 0px;
+}
+
+.investing-live-image {
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: 100%;
+}
+
+.investing-live-image1 {
+	background-image: url(assets/image/3/1.jpg);
+	width: 250px;
+	height: 391px;
+	top: 600px;
+	left: 0px;
+}
+
+.investing-live-image2 {
+	background-image: url(assets/image/3/2.jpg);
+	width: 250px;
+	height: 360px;
+	top: 600px;
+	left: 258px;
+}
+
+.investing-live-image3 {
+	background-image: url(assets/image/3/3.jpg);
+	width: 250px;
+	height: 370px;
+	top: 600px;
+	left: 516px;
+}
+
+.investing-live-image4 {
+	background-image: url(assets/image/3/4.jpg);
+	width: 250px;
+	height: 354px;
+	top: 600px;
+	left: 774px;
 }
 
 /* blockchain.php stylesheet */
